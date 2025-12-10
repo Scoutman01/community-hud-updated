@@ -17,6 +17,21 @@
 		"wide_minmode"	"210"
 		"tall_minmode"	"100"
 	}
+	
+	HudKothTimeStatus
+	{
+		"fieldName" "HudKothTimeStatus"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"c-100"
+		"ypos"	"0"
+		"wide"	"200"
+		"tall"	"160"
+		
+		"blue_active_xpos"	"55"
+	
+		"red_active_xpos"	"105"
+	}
 
 	HudItemEffectMeter
 	{
@@ -208,7 +223,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"	 		"r640"	[$WIN32]
-		"ypos"	 		"6"	[$WIN32]
+		"ypos"	 		"18"	[$WIN32]
 		"wide"	 		"628"
 		"tall"	 		"468"
 
