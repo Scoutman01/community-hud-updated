@@ -113,7 +113,7 @@ Scheme
 		
 		"LabelDark"			"48 43 42 255"
 		"LabelTransparent"		"109 96 80 180"
-					
+		
 		"BuildMenuActive"		"248 231 198 255"
 		
 		"DisguiseMenuIconRed"		"192 56 63 255"
@@ -1247,9 +1247,9 @@ Scheme
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
-				"scalex"	"1.0"
+				"scalex"	"0.5"
 				"scalex_lodef"		"0.75"
-				"scaley"	"1.0"
+				"scaley"	"0.5"
 				"scaley_lodef"		"0.75"
 			}
 		}
@@ -2401,6 +2401,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"ItemFontNameLarger"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ItemFontAttribSmallest"
 		{
 			"1"
@@ -2410,6 +2421,16 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
+			}
+		}
+		ItemFontAttribSmallv2
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"antialias" "1"
+				"weight"	"500"
 			}
 		}
 		"ItemFontAttribSmall"
@@ -2486,7 +2507,8 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -2497,7 +2519,8 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"antialias" 	"1"
 			}
@@ -2507,7 +2530,8 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"blur"		"3"
 				"additive"	"1"
@@ -2529,6 +2553,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
@@ -2538,6 +2563,7 @@ Scheme
 			}
 			"2"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
@@ -2547,6 +2573,7 @@ Scheme
 			}
 			"3"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"400"
@@ -2560,6 +2587,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"800"
@@ -2569,6 +2597,7 @@ Scheme
 			}
 			"2"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"800"
@@ -2578,6 +2607,7 @@ Scheme
 			}
 			"3"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"800"
@@ -2591,6 +2621,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"16"
 				"weight"	"400"
@@ -2736,7 +2767,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -3056,6 +3087,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"      "OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"0"
@@ -3069,6 +3101,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"      "OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"400"
@@ -3081,6 +3114,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"      "OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
@@ -3093,6 +3127,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"      "OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
@@ -3105,6 +3140,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"      "OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"30"
 				"weight"	"400"
@@ -3371,13 +3407,14 @@ Scheme
 				
 		MainMenuSubButtonBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 1 0"
+			"proportional_scalar" "0.667"
 			Left
 			{
 				"1"
 				{
 					"color" "TanDarker"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -3386,7 +3423,7 @@ Scheme
 				"1"
 				{
 					"color" "TanDarker"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 		}
@@ -5058,12 +5095,73 @@ Scheme
 			}
 		}
 		
+		MainMenuButtonGlow
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"178 83 22 255"
+			
+			"image"					"button_glow"
+			"src_corner_height"		"4"				// pixels inside the image
+			"src_corner_width"		"4"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+
+		MainMenuButtonGlow2
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"238 103 17 255"
+			
+			"image"					"button_glow"
+			"src_corner_height"		"4"				// pixels inside the image
+			"src_corner_width"		"4"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		
 		NotificationDefault
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
+
 			"image"					"alert_rect"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"
+		}
+
+		NotificationHighPriority
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"button_holder_central"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"
+		}
+
+		MainMenuButtonDepressed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"button_central_depressed"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"
+		}
+		MainMenuButtonDepressedArmed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"button_central_depressed_armed"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -5826,6 +5924,9 @@ Scheme
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	//
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
+	// Range specificies the characters to be used from the custom font before falling back to a default font
+	// characters in the range not specificed in the font will appear empty
+	// For TF2: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"
@@ -5947,5 +6048,13 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
+		"10"		"resource/linux_fonts/DejaVuSans.ttf"
+		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"13"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"14"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }
