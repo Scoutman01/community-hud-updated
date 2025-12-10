@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/scripts/hudlayout.res"
+#base "../default_hudfiles/scripts/hudlayout.res"
 
 "Resource/HudLayout.res"
 {
