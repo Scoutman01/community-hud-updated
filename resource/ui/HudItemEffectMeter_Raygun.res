@@ -72,4 +72,49 @@
 		"tall_minmode"	"8"			
 
 	}
+	
+	"ChargeMark_25"
+	{
+		"controlName"	"ImagePanel"
+		"fieldName"		"ChargeMark_25"
+		"xpos"			"47"
+		"ypos"			"6"
+		"zpos"			"4"
+		"wide"			"2"
+		"tall"			"10"
+		"visible"		"1"
+		"visible_minmode"	"0"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 255"
+	}
+	
+	"ChargeMark_50"
+	{
+		"controlName"	"ImagePanel"
+		"fieldName"		"ChargeMark_50"
+		"xpos"			"80"
+		"ypos"			"6"
+		"zpos"			"4"
+		"wide"			"2"
+		"tall"			"10"
+		"visible"		"1"
+		"visible_minmode"	"0"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 255"
+	}
+	
+	"ChargeMark_75"
+	{
+		"controlName"	"ImagePanel"
+		"fieldName"		"ChargeMark_75"
+		"xpos"			"112"
+		"ypos"			"6"
+		"zpos"			"4"
+		"wide"			"2"
+		"tall"			"10"
+		"visible"		"1"
+		"visible_minmode"	"0"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 255"
+	}
 }

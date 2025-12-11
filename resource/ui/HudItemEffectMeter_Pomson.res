@@ -77,7 +77,7 @@
 	{
 		"controlName"	"ImagePanel"
 		"fieldName"		"ChargeMark_25"
-		"xpos"			"45"
+		"xpos"			"47"
 		"ypos"			"6"
 		"zpos"			"4"
 		"wide"			"2"
@@ -92,7 +92,7 @@
 	{
 		"controlName"	"ImagePanel"
 		"fieldName"		"ChargeMark_50"
-		"xpos"			"78"
+		"xpos"			"80"
 		"ypos"			"6"
 		"zpos"			"4"
 		"wide"			"2"

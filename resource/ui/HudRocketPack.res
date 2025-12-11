@@ -1,4 +1,5 @@
 #base "HudItemEffectMeter.res"
+
 "Resource/UI/HudRocketPack.res"
 {
 	"ItemEffectMeter"
@@ -7,13 +8,14 @@
         "fieldName"     "ItemEffectMeter"
         "font"          "Default"
         "xpos"          "16"
-        "xpos_minmode"  "26"
+        "xpos_minmode"  "10"
         "ypos"          "6"
         "ypos_minmode"  "40"
         "zpos"          "3"
         "wide"          "63"
-        "wide_minmode"  "22"
-        "tall"          "9"             
+        "wide_minmode"  "27"
+        "tall"          "9"
+		"tall_minmode"	"8"
         "autoResize"    "0"
         "pinCorner"     "0"
         "visible"       "1"
@@ -30,13 +32,14 @@
         "fieldName"     "ItemEffectMeter2"
         "font"          "Default"
         "xpos"          "78"
-        "xpos_minmode"  "52"
+        "xpos_minmode"  "38"
         "ypos"          "6"
         "ypos_minmode"  "40"
         "zpos"          "3"
         "wide"          "68"
-        "wide_minmode"  "22"
-        "tall"          "9"             
+        "wide_minmode"  "27"
+        "tall"          "9"
+		"tall_minmode"	"8"
         "autoResize"    "0"
         "pinCorner"     "0"
         "visible"       "1"
@@ -47,7 +50,22 @@
         "fgcolor"       "White"
     }
 
-    
+	"ItemEffectIcon"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectIcon"
+		"xpos"			"160"
+		"ypos"			"-2"
+		"zpos"			"2"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"0"
+		"visible_minmode""0"
+		"enabled"		"1"
+		"image"			"../hud/pyro_jetpack_off2"
+		"scaleImage"	"1"	
+	}
+	
     "ChargeMark_25"
     {
         "controlName"   "ImagePanel"

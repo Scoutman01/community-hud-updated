@@ -83,7 +83,7 @@
 
 		"xpos_minmode"		"c158"	[$WIN32]
 		"ypos_minmode"		"r114"	[$WIN32]
-		"wide_minmode"		"50"
+		"wide_minmode"		"55"
 		"tall_minmode"		"8"
 	}	
 
@@ -308,8 +308,8 @@
 		"wide"			"150"
 		"tall"			"50"
 		
-		"xpos_minmode"		"c103"	[$WIN32]
-		"ypos_minmode"		"r116"	[$WIN32]
+		"xpos_minmode"		"c106"	[$WIN32]
+		"ypos_minmode"		"r71"	[$WIN32]
 		"wide_minmode"		"200"
 		"tall_minmode"		"50"
 	}
