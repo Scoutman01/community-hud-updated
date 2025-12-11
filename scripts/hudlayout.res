@@ -245,6 +245,35 @@
 		"LocalBackgroundColor"	"255 255 255 200"	[$WIN32]
 	}
 	
+	HudVoiceStatus
+	{
+		"fieldName" 		"HudVoiceStatus"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos" 			"r145" [$WIN32]
+		"ypos" 			"-35" [$WIN32]
+		"wide" 			"145"
+		"tall" 			"400"
+
+		"item_wide"		"135"
+
+		"show_avatar"		"1"
+
+		"show_dead_icon"	"1"
+		"dead_xpos"		"14"
+		"dead_ypos"		"0"
+		"dead_wide"		"16"
+		"dead_tall"		"16"
+
+		"show_voice_icon"	"1"
+		"icon_ypos"		"0"
+		"icon_xpos"		"0"
+		"icon_tall"		"16"
+		"icon_wide"		"16"
+
+		"text_xpos"		"45"
+	}
+	
 	WinPanel
 	{
 		"fieldName"				"WinPanel"
