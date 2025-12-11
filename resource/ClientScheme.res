@@ -794,6 +794,18 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"PlayerPanelPlayerNameOutline"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"6"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 		HudHintText
 		{
 			"1"
