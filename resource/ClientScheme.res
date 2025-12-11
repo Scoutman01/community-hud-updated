@@ -919,6 +919,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudFontBold70"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"70"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HudFontHUGE"
 		{
 			"1"
@@ -1138,6 +1149,18 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+		"HudFontSmallestBoldShadow"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
 			}
 		}
 		"PerformanceModeSmall"

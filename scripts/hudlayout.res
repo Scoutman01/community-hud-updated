@@ -245,6 +245,30 @@
 		"LocalBackgroundColor"	"255 255 255 200"	[$WIN32]
 	}
 	
+	WinPanel
+	{
+		"fieldName"				"WinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-140"
+		"ypos"					"r250"
+		"zpos"					"20"
+		"wide"					"f0"
+		"tall"					"250"
+	}
+
+	ArenaWinPanel
+	{
+		"fieldName"				"ArenaWinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-225"
+		"ypos"					"260"
+		"zpos"					"20"
+		"wide"					"450"
+		"tall"					"218"
+	}
+	
 	HudDemomanPipes
 	{
 		"fieldName"		"HudDemomanPipes"
