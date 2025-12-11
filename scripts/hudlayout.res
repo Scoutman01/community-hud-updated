@@ -260,6 +260,18 @@
 		"wide_minmode"		"200"
 		"tall_minmode"		"50"
 	}
+	
+	HudStopWatch
+	{
+		"fieldName"				"HudStopWatch"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-160"
+		"ypos"					"15"
+		"ypos_lodef"				"75"
+		"wide"					"125"
+		"tall"					"70"
+	}
 
 	HudInspectPanel
 	{
