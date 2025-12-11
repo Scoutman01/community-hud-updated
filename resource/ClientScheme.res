@@ -2133,7 +2133,17 @@ Scheme
 				"weight_lodef"	"600"
 				"antialias"		"1"
 			}
-		}			
+		}
+		"MenuSmallFont10"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"10"
+				"weight"	"300"
+				"antialias" "1"
+			}
+		}
 		CapPlayerFont
 		{
 			"1"
