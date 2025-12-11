@@ -104,7 +104,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"1"
-	}		
+	}
 
     "ChargeMeter1"
 	{	
@@ -209,12 +209,12 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ResistIconAnchor"
-		"xpos"				"-60"
+		"xpos"				"130"
 		"ypos"				"0"
 		"wide"			"100"
 		"tall"			"100"
 		
-		"xpos_minmode"	"0"
+		"xpos_minmode"	"-32"
 		"ypos_minmode"	"0"
 		
 		"visible"			"1"
@@ -228,10 +228,8 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"			"8"
-		"wide"				"25"
-		"tall"				"25"
-		"wide_minmode"		"35"
-		"tall_minmode"		"35"
+		"wide"				"35"
+		"tall"				"35"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../HUD/defense_buff_bullet_blue"
@@ -240,20 +238,4 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-	
-	//"ResistIcon"
-	//{
-	//	"ControlName"	"ImagePanel"
-	//	"fieldName"		"ResistIcon"
-	//	"xpos"			"0"
-	//	"ypos"			"-25"
-	//	"ypos_minmode" "-10"
-	//	"wide"			"36"
-	//	"tall"			"36"
-	//	"visible"		"1"
-	//	"visible_minmode"		"0"
-	//	"enabled"		"1"
-	//	"image"			"../HUD/defense_buff_bullet_blue"
-	//	"scaleImage"	"1"	
-	//}
 }

@@ -59,7 +59,7 @@
 		"enabled"		"1"
 		"xpos"			"c120"	[$WIN32]
 		"ypos"			"r44"	[$WIN32]
-		"wide"			"200"
+		"wide"			"250"
 		"tall"			"100"
 
 		"xpos_minmode"		"c110"	[$WIN32]
