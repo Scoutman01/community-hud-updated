@@ -134,8 +134,8 @@
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"xpos"			"5"		[$WIN32]
 		"ypos"			"10"	[$WIN32]
-		"wide"			"60"	[$WIN32]
-		"tall"			"20"
+		"wide"			"0"	[$WIN32]
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
@@ -153,8 +153,8 @@
 		"fieldName"		"SwitchCamModeLabel"
 		"xpos"			"80"	[$WIN32]
 		"ypos"			"10"	[$WIN32]	
-		"wide"			"125"	[$WIN32]	
-		"tall"			"20"
+		"wide"			"0"	[$WIN32]	
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
@@ -170,8 +170,8 @@
 		"fieldName"		"CycleTargetFwdKeyLabel"
 		"xpos"			"5"	[$WIN32]
 		"ypos"			"20"	[$WIN32]	
-		"wide"			"60"	[$WIN32]
-		"tall"			"20"
+		"wide"			"0"	[$WIN32]
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
@@ -190,9 +190,9 @@
 		"ypos"			"20"	[$WIN32]
 		"xpos"			"128"	[$X360]
 		"ypos"			"50"	[$X360]		
-		"wide"			"125"	[$WIN32]
+		"wide"			"0"	[$WIN32]
 		"wide"			"95"	[$X360]	
-		"tall"			"20"
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
@@ -211,9 +211,9 @@
 		"ypos"			"30"	[$WIN32]
 		"xpos"			"53"	[$X360]
 		"ypos"			"60"	[$X360]		
-		"wide"			"60"	[$WIN32]
+		"wide"			"0"	[$WIN32]
 		"wide"			"60"	[$X360]		
-		"tall"			"20"
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
@@ -232,9 +232,9 @@
 		"ypos"			"30"	[$WIN32]
 		"xpos"			"128"	[$X360]
 		"ypos"			"60"	[$X360]		
-		"wide"			"125"	[$WIN32]
+		"wide"			"0"	[$WIN32]
 		"wide"			"95"	[$X360]
-		"tall"			"20"
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
