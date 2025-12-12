@@ -56,48 +56,49 @@
 		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthValue"
-    {
-        "ControlName"   "Label"
-        "fieldName"     "PlayerStatusHealthValue"
-        "xpos"          "75"
-        "ypos"          "32"
-        "zpos"          "5"
-        "wide"          "50"
-        "tall"          "18"
-        "visible"       "0"
-        "enabled"       "0"
-        "textAlignment" "center"    
-    }
-    "PlayerStatusHealthValue2"
-    {
-        "ControlName"   "CExLabel"
-        "fieldName"     "PlayerStatusHealthValue2" // ACTUAL HEALTH VALUE
-        "xpos"          "0"
-        "ypos"          "10"
-        "zpos"          "15"
-        "wide"          "32"
-        "tall"          "32"
-        "visible"       "1"
-        "enabled"       "1"
-        "labelText"     "%Health%"
-        "textAlignment" "center"    
-        "font"          "HudFontSmallBold"
-        "fgcolor"       "TanLight"
-    }
-    "PlayerStatusHealthValue2Shadow"
-    {
-        "ControlName"   "CExLabel"
-        "fieldName"     "PlayerStatusHealthValue2Shadow" // ACTUAL HEALTH VALUE
-        "xpos"          "1"
-        "ypos"          "11"
-        "zpos"          "15"
-        "wide"          "32"
-        "tall"          "32"
-        "visible"       "1"
-        "enabled"       "1"
-        "labelText"     "%Health%"
-        "textAlignment" "center"    
-        "font"          "HudFontSmallBold"
-        "fgcolor"       "Black"
-    }								
+	{
+		"ControlName"	"Label"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"75"
+		"ypos"			"32"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"0"
+		"enabled"		"0"
+		"textAlignment"	"center"	
+	}								
+	"PlayerStatusHealthValue2"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue2"
+		"xpos"			"14"
+		"ypos"			"14"
+		"zpos"			"7"
+		"wide"			"640"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labeltext"		"%Health%"
+		"textAlignment"		"left"
+		"font"			"HudFontSmallBold"
+		"fgColor"	"255 255 255 255"
+	}
+	
+	"PlayerStatusHealthValue3"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue2"
+		"xpos"			"15"
+		"ypos"			"15"
+		"zpos"			"6"
+		"wide"			"640"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labeltext"		"%Health%"
+		"textAlignment"		"left"
+		"font"			"HudFontSmallBold"
+		"fgColor"	"0 0 0 255"
+	}
 }
