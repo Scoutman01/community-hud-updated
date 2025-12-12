@@ -49,7 +49,7 @@
 		"fieldName"				"ChargeMeter"
 		"xpos"					"18"
 		"ypos"					"0"
-		"ypos_minmode"			"2"
+		"ypos_minmode"			"45"
 		"xpos_minmode"			"52"
 		"zpos"					"2"
 		"wide"					"130"

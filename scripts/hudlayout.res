@@ -309,9 +309,9 @@
 		"tall"			"50"
 		
 		"xpos_minmode"		"c106"	[$WIN32]
-		"ypos_minmode"		"r71"	[$WIN32]
+		"ypos_minmode"		"r116"	[$WIN32]
 		"wide_minmode"		"200"
-		"tall_minmode"		"50"
+		"tall_minmode"		"80"
 	}
 	
 	HudStopWatch
