@@ -177,32 +177,6 @@
 		"priority"		"35"
 	}
 	
-	BuildingStatus_Spy
-	{
-		"fieldName" "BuildingStatus_Spy"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"-6"
-		"ypos"		"-6"
-		"wide"		"640"
-		"tall"		"480"
-		
-		"PaintBackgroundType"	"2"
-	}
-	
-	BuildingStatus_Engineer
-	{
-		"fieldName" "BuildingStatus_Engineer"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"-6"
-		"ypos"		"-6"
-		"wide"		"640"
-		"tall"		"480"
-		
-		"PaintBackgroundType"	"2"
-	}
-	
 	"CurrencyStatusPanel"
 	{
 		"ControlName"		"CCurrencyStatusPanel"
@@ -324,18 +298,6 @@
 		"ypos_lodef"				"75"
 		"wide"					"125"
 		"tall"					"70"
-	}
-
-	HudInspectPanel
-	{
-		"fieldName"				"HudInspectPanel"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"r312"
-		"ypos"					"rs1"
-		"zpos"					"10"
-		"wide"					"300"
-		"tall"					"f0"
 	}
 
 	"HudMenuTauntSelection"
