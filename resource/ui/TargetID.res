@@ -118,7 +118,22 @@
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"Hudoffwhite"
-	}	
+	}
+	
+	"AmmoIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AmmoIcon"
+		"xpos"			"57"
+		"ypos"			"18"
+		"zpos"			"12"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/leaderboard_class_heavy"
+		"scaleImage"	"1"
+	}
 	
 	"MoveableSubPanel"
 	{
