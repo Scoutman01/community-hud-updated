@@ -41,7 +41,7 @@
 		"xpos"			"35"
 		"ypos"			"29"
 		"zpos"			"1"
-		"wide"			"59"
+		"wide"			"60"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
@@ -52,7 +52,7 @@
 	"GreenBG"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"WhiteBG"
+		"fieldName"		"GreenBG"
 		"xpos"			"36"
 		"ypos"			"30"
 		"zpos"			"2"
