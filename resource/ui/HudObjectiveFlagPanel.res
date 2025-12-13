@@ -37,6 +37,16 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}
 		
 	"RightSideBG"
@@ -54,6 +64,16 @@
 		"image"			"../hud/objectives_flagpanel_bg_right"
 		"scaleImage"	"1"	
 		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -75,6 +95,16 @@
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -100,6 +130,16 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}	
 		
 	"BlueScoreShadow"
@@ -118,6 +158,16 @@
 		"font"			"HudFontBig"
 		"fgcolor"		"90 123 142 200"
 		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -143,6 +193,16 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}	
 		
 	"RedScoreShadow"
@@ -165,8 +225,18 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}	
-															
+	
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -188,8 +258,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"c-30"
-		"ypos"			"r73"	[$WIN32]
-		"ypos"			"r148"	[$X360]
+		"ypos"			"r72"	[$WIN32]
 		"zpos"			"10"
 		"wide"			"60"
 		"tall"			"60"
@@ -197,17 +266,12 @@
 		"enabled"		"01"
 		"image"			"../hud/objectives_flagpanel_carried_blue"
 		"scaleImage"	"1"
-		
-		"if_hybrid"
-		{
-			"ypos"		"r73"
-		}
 	}		
 	
-	"PlayingTo"
+	"PlayingToFlame"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayingTo"
+		"fieldName"		"PlayingToFlame"
 		"xpos"			"c-70"	[$WIN32]
 		"ypos"			"r27"	[$WIN32]
 		"zpos"			"4"
@@ -220,30 +284,82 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmall"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-	}	
-			
-	"PlayingToBG"
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}
+
+	"PlayingToShadow"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayingToBG"
-		"xpos"			"c-75"	[$WIN32]
-		"ypos"			"r31"	[$WIN32]
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayingToShadow"
+		"xpos"			"c-69"	[$WIN32]
+		"ypos"			"r26"	[$WIN32]
 		"zpos"			"3"
-		"wide"			"150"	[$WIN32]
-		"tall"			"38"	[$WIN32]
+		"wide"			"140"	[$WIN32]
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
-		"scaleImage"	"1"	
+		"labelText"		"#TF_PlayingTo"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"HudFontSmall"
+		"fgcolor"		"Black"
 		
 		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}	
+	
+	"PlayingToBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayingToBG"
+		"xpos"			"c-50"	[$WIN32]
+		"ypos"			"r7"	[$WIN32]
+		"zpos"			"2"
+		"wide"			"100"	[$WIN32]
+		"tall"			"0"	[$WIN32]
+		"visible"		"0"
+		"enabled"		"1"
+		"fillcolor"		"Black"
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -275,6 +391,11 @@
 		"if_hybrid_double"
 		{
 			"xpos"		"c-115"
+		}
+
+		"if_specialdelivery"
+		{
+			"ypos"		"r100"
 		}
 		
 		"if_no_flags"
@@ -310,13 +431,18 @@
 		{
 			"xpos"		"c-45"
 		}
+
+		"if_specialdelivery"
+		{
+			"ypos"		"r100"
+		}
 		
 		"if_no_flags"
 		{
 			"visible"	"0"
 		}
 	}	
-			
+	
 	"CaptureFlag"
 	{
 		"ControlName"	"CTFArrowPanel"
@@ -334,6 +460,38 @@
 		{
 			"ypos"		"r100"
 		}
+	}
+
+	"PoisonIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PoisonIcon"
+		"xpos"			"cs-0.5"
+		"ypos"			"r75"
+		"zpos"			"6"
+		"wide"			"40"
+		"tall"			"o1"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"marked_for_death"
+		"scaleImage"	"1"
+	}
+
+	"PoisonTimeLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PoisonTimeLabel"
+		"xpos"			"cs-0.5"
+		"ypos"			"r65"
+		"zpos"			"6"
+		"wide"			"40"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%redscore%"
+		"font"			"HudFontMediumBold"
+		"fgcolor"		"TanLight"
 	}
 	
 	"SpecCarriedImage"
