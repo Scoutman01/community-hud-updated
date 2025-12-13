@@ -183,6 +183,7 @@
 		"fieldName"			"CurrencyStatusPanel"
 		"xpos"				"50"
 		"ypos"				"r45"
+		"zpos"				"1" // "fix" overlap with the spy disguise status
 		"wide"				"150"
 		"tall"				"100"
 		"xpos_minmode"		"185"
