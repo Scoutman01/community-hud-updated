@@ -1,6 +1,8 @@
 # Credits
 
 - flame: author of communityHUD and flameHUD
-- pvoid: author of PVHUD
-- noobynoob: previous updater of communityHUD (https://gamebanana.com/mods/26667)
-- Hypnotize: HUD update guide and default HUD files
+- povohat: author of PVHUD
+- noobynoob: previous update of [communityHUD](https://gamebanana.com/mods/26667)
+- Hypnotize: [HUD update guide](https://github.com/Hypnootize/HUDs-Update-Guide), [default HUD files](https://github.com/Hypnootize/TF2-Default-HUD), update of [PVHUD](https://github.com/TF2HUDsArchive/PV-Hud) and [flameHUD](https://github.com/TF2HUDsArchive/Flame-Hud)
+- Thespikedballofdoom: [2013 Item borders and color](https://gamebanana.com/mods/27051)
+- Doodles: [HUD guide](https://doodlesstuff.com/?p=tf2hud&page=preface)
