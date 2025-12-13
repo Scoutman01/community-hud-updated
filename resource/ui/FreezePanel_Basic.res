@@ -198,6 +198,7 @@
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
+			"inventory_image_type"	"1"
 		}
 		
 		"ItemLabel"
@@ -219,7 +220,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}		
+	}
 	
 	"FreezePanelBase"	[$WIN32]
 	{

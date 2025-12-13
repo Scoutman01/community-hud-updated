@@ -281,31 +281,33 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"300"
-		"tall"			"120"
+		"wide"			"190"
+		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 150"
+		"bgcolor_override"		"255 255 255 0"
+		"PaintBackgroundType"	"0"
 		
-		"model_xpos"		"12"
-		"model_center_y"	"1"
+		"model_ypos"		"10"
+		"model_center_x"	"1"
 		"model_wide"		"90"
 		"model_tall"		"60"
 		
-		"text_xpos"		"115"
+		"text_xpos"		"10"
+		"text_ypos"		"10"
 		"text_wide"		"170"
 		"text_center"	"1"
 		
-		"max_text_height"	"55"
-		"padding_height"	"20"
-		"resize_to_text"	"0"
-		"text_forcesize"	"0"
+		"max_text_height"	"100"
+		"padding_height"	"10"
+		"resize_to_text"	"1"
+		"text_forcesize"	"2"
 		
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
-			"inventory_image_type" "1"
+			"inventory_image_type"	"1"
 		}
 		
 		"ItemLabel"
@@ -327,5 +329,19 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
+	}
+	
+	"spectator_extras"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 }
