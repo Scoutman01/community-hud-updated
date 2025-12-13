@@ -29,7 +29,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"fgcolor"		"255 0 0 255"
+		"fgcolor"		"255 255 0 255"
 		"font"			"HudFontBiggerBold"
 	}
 	
