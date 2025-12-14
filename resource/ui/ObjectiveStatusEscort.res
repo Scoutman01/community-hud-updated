@@ -49,7 +49,7 @@
 		{
 			"ypos"			"117"
 			"ypos_minmode"	"120"
-			"tall"			"18"
+			"tall"			"16"
 			"tall_minmode"	"10"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}		
