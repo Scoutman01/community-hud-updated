@@ -27,6 +27,7 @@
 	"RankBorder"
 	{
 		"tall"			"116"
+		"zpos"			"-98"
 		"proportionaltoparent"	"0"
 	}
 	
