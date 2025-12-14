@@ -300,6 +300,11 @@
 		"wide"					"125"
 		"tall"					"70"
 	}
+	
+	"HudAchievementTracker"
+    {
+        "EngineerY"     "190"
+    }
 
 	"HudMenuTauntSelection"
 	{
