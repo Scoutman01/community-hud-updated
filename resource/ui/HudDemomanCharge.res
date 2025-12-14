@@ -13,11 +13,11 @@
 		"wide"			"130"
 		"tall"			"8"	
 		
-		"xpos_minmode"			"0"
+		"xpos_minmode"			"2"
 		"ypos_minmode"			"0"
 		"zpos_minmode"			"2"
 		"wide_minmode"			"55"
-		"tall_minmode"			"6"				
+		"tall_minmode"			"8"				
 	}
 
 	"ChargeMark_25"
