@@ -1,4 +1,5 @@
 #base "../default_hudfiles/scripts/hudlayout.res"
+#base "../resource/crosshairs/crosshair.res"
 
 "Resource/HudLayout.res"
 {
