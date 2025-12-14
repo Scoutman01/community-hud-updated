@@ -91,7 +91,7 @@
 		"ypos_minmode"			"c-110"
 		
 		"visible"		"0"
-		"bgcolor_override"	"Black"
+		"bgcolor_override"	"BlackTransparent"
 		"PaintBackgroundType"	"2"
 	}
 	"RedLeaderAvatar"
@@ -128,7 +128,7 @@
 		
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"Black"
+		"bgcolor_override"	"BlackTransparent"
 	}
 	
 	"RedScoreBG"
@@ -184,7 +184,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Black"
+		"fillcolor"		"BlackTransparent"
 		"PaintBackgroundType"	"0"
 		if_mvm
 		{
@@ -706,7 +706,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Black"
+		"fillcolor"		"BlackTransparent"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -928,7 +928,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Black"
+		"fillcolor"		"BlackTransparent"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm

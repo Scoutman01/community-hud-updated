@@ -429,7 +429,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"Black"
+		"fillcolor"		"BlackTransparent"
 		"PaintBackgroundType"	"0"
 	}
 	"ShadedBar2"
