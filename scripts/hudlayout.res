@@ -306,6 +306,11 @@
 		"tall"					"70"
 	}
 	
+	HudArenaPlayerCount
+	{
+		"ypos"					"5"
+	}
+	
 	"HudAchievementTracker"
     {
         "EngineerY"     "190"
