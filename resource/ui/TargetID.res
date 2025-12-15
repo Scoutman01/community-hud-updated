@@ -109,7 +109,7 @@
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"1"
 		"ypos"			"3"
-		"wide"			"49"
+		"wide"			"50"
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -245,5 +245,22 @@
 			"dulltext"		"0"
 			"brighttext"		"0"
 		}	
+	}
+	
+	"AvatarImage"
+	{
+		"ControlName"	"CAvatarImagePanel"
+		"fieldName"		"AvatarImage"
+		"xpos"			"9"
+		"ypos"			"9"	[$WIN32]
+		"ypos"			"0"	[$X360]
+		"zpos"			"99"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
 	}
 }

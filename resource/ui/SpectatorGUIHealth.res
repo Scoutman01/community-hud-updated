@@ -57,7 +57,7 @@
 	}
 	"PlayerStatusHealthValue"
 	{	
-		"ControlName"		"Label"
+		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"30"
 		"ypos"			"14"
@@ -69,6 +69,38 @@
 		"labeltext"		"%Health%"
 		"textAlignment"		"west"
 		"font"			"hudfontsmallestbold"
-		"fgcolor"		"0 0 0 255"
-	}								
+		"fgcolor"		"White"
+	}
+	"PlayerStatusHealthValueShadow"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"31"
+		"ypos"			"15"
+		"zpos"			"6"
+		"wide"			"30"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labeltext"		"%Health%"
+		"textAlignment"		"west"
+		"font"			"hudfontsmallestbold"
+		"fgcolor"		"Black"
+	}
+	"PlayerStatusPlayerLevel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusPlayerLevel"
+		"xpos"			"8"
+		"xpos_minmode"	"0"
+		"ypos"			"9"
+		"zpos"			"5"
+		"wide"			"16"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"font"			"ScoreboardVerySmall"
+		"fgcolor"		"TFOrange"
+	}
 }
