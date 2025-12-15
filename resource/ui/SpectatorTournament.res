@@ -1,6 +1,6 @@
 #base "../../default_hudfiles/resource/ui/spectatortournament.res"
 
-"Resource/UI/SpectatorTournament.res"
+"resource/ui/spectatortournament.res"
 {
 	"specgui"
 	{

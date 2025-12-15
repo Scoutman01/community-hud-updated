@@ -1,7 +1,7 @@
 #base "../../default_hudfiles/resource/ui/mainmenuoverride.res"
 #base "../../resource/extras/console_button.res"
 
-"Resource/UI/MainMenuOverride.res"
+"resource/ui/mainmenuoverride.res"
 {
 	
 	"FriendsContainer"

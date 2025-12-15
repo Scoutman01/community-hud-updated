@@ -1,6 +1,6 @@
 #base "../../default_hudfiles/resource/ui/hudobjectiverobotdestruction.res"
 
-"Resource/UI/HudObjectiveFlagPanel.res"
+"resource/ui/hudobjectiveflagpanel.res"
 {
 	"ObjectiveStatusRobotDestruction"
 	{

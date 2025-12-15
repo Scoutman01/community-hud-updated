@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_KillStreak.res"
+"resource/ui/huditemeffectmeter_killstreak.res"
 {
 	HudItemEffectMeter
 	{

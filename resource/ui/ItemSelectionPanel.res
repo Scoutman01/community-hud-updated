@@ -1,6 +1,6 @@
 #base "../../default_hudfiles/resource/ui/itemselectionpanel.res"
 
-"Resource/UI/ItemSelectionPanel.res"
+"resource/ui/itemselectionpanel.res"
 {
 	"ItemSelectionPanel"
 	{

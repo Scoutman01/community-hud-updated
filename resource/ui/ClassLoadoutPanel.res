@@ -1,6 +1,6 @@
 #base "../../default_hudfiles/resource/ui/classloadoutpanel.res"
 
-"Resource/UI/FullLoadoutPanel.res"
+"resource/ui/fullloadoutpanel.res"
 {
 	"CharacterLoadoutKey"
 	{

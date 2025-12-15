@@ -1,4 +1,4 @@
-"Resource/UI/HudPowerupEffectMeter.res"
+"resource/ui/hudpowerupeffectmeter.res"
 {
 	HudItemEffectMeter
 	{
