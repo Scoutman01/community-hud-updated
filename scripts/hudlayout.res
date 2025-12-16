@@ -373,6 +373,17 @@
 		"tall"					"70"
 	}
 	
+	HudArenaPlayerCount
+	{
+		"fieldName"				"HudArenaPlayerCount"		
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"r41"
+		"wide"					"f0"
+		"tall"					"50"
+	}
+	
 	"HudAchievementTracker"
     {
         "EngineerY"     "190"
