@@ -25,7 +25,7 @@
 		"enabled" 	"1"
 		"xpos"		"c100"
 		"ypos"		"r72"
-		"wide"		"180"
+		"wide"		"200"
 		"tall"		"70"
 		
 		"xpos_minmode"	"c80"
