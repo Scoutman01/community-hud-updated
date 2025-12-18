@@ -101,7 +101,7 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 
-		"xpos"			"c-294"	[$WIN32]
+		"xpos"			"c-312"	[$WIN32]
 		"ypos"			"r100"	[$WIN32]
 		
 		"xpos_minmode"			"c-300"
