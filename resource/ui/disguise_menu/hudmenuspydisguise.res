@@ -16,6 +16,30 @@
 		"iconColor"		"255 255 255 255"
 	}
 	
+	"TeamColoredBar"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamColoredBar"
+		"xpos"			"c-180"
+		"ypos"			"c-100"
+		"zpos"			"-1"		
+		"wide"			"360"
+		"tall"			"29"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/objectives_timepanel_red_bg"
+		"teambg_3"		"../hud/objectives_timepanel_blue_bg"
+		
+		"src_corner_height"		"3"		// pixels inside the image
+		"src_corner_width"		"3"
+		
+		"draw_corner_width"		"0"		// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+	}
+	
 	"FlameBackground"
 	{
 		"ControlName"		"ImagePanel"
@@ -34,79 +58,24 @@
 		"PaintBackgroundType"	"0"
 	}
 	
-	"FlameLeftBar"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"FlameLeftBar"
-		"xpos"			"c-181"
-		"ypos"			"c-100"
-		"zpos"			"-1"
-		"wide"			"2"
-		"tall"	 		"120"
-		"autoResize"		"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"			// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"		
-	}
-	
-	"FlameRightBar"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"FlameRightBar"
-		"xpos"			"c179"
-		"ypos"			"c-100"
-		"zpos"			"-1"
-		"wide"			"2"
-		"tall"	 		"120"
-		"autoResize"		"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"			// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
-	}
-
 	"FlameDivider"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"FlameDivider"
-		"xpos"			"c-170"
+		"xpos"			"c-180"
 		"ypos"			"c-70"
 		"zpos"			"-1"
-		"wide"			"340"
-		"tall"	 		"1"
-		"autoResize"		"1"
+		"wide"			"360"
+		"tall"	 		"2"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"			// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
+		"tabPosition"	"0"	
+		"fillcolor"		"255 255 255 150"
+		"PaintBackgroundType"	"0"
 	}
+	
 	"SpyIcon"
 	{
 		"ControlName"	"CIconPanel"
