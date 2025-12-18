@@ -15,27 +15,27 @@
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 	}
-
+	
 	"TFMessageTitle"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TFMessageTitle"
-		"xpos"			"c-160"
-		"ypos"			"68"
+		"xpos"			"c-210"
+		"ypos"			"90"
 		"zpos"			"1"
-		"wide"			"320"
+		"wide"			"420"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_WELCOME"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"ChalkboardTitle"
+		"font"			"ChalkboardTitleMedium"
 		"fgcolor"		"White"
-	}
+	}	
 
 	"TextMessage"
 	{
@@ -47,13 +47,13 @@
 
 	"TFTextMessage"
 	{
-		"ControlName"	"CTFRichText"
+		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"ChalkboardText"
-		"xpos"			"c-160"
-		"ypos"			"c-140"
+		"font"			"HudFontSmallest"
+		"xpos"			"c-209"
+		"ypos"			"125"
 		"zpos"			"1"
-		"wide"			"320"
+		"wide"			"418"
 		"tall"			"240"
 		"autoResize"	"3"
 		"pinCorner"		"0"
@@ -61,18 +61,18 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"northwest"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"white"
 	}
 
 	"HTMLMessage"
 	{
-		"ControlName"		"HTML"
+		"ControlName"	"HTML"
 		"fieldName"		"HTMLMessage"
-		"xpos"			"c-160"
-		"ypos"			"c-140"
+		"xpos"			"c-215"
+		"ypos"			"75"
 		"zpos"			"1"
-		"wide"			"320"
-		"tall"			"240"
+		"wide"			"430"
+		"tall"			"290"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -80,99 +80,81 @@
 		"tabPosition"	"0"
 		"paintborder"	"0"
 	}
-
+	
 	"ok"
 	{
-		"ControlName"		"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"ok"
-		"xpos"			"c80"
-		"ypos"			"c110"
+		"xpos"			"c105"
+		"ypos"			"r105"
 		"zpos"			"6"
-		"wide"			"80"
-		"tall"			"16"
+		"wide"			"100"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 		"labelText"		"CONTINUE (&E)"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		"brighttext"	"0"
+		"wrap"			"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"MenuSmallFont10"
+		"font"			"MenuSmallFont"
+		
+		"sound_armed"				"ui/item_info_mouseover.wav"
+		"sound_armed_minmode"		""
+		"sound_depressed"			"UI/buttonclickrelease.wav"
+		"sound_depressed_minmode"	""
 	}
-
+	
 	"MenuBG"
 	{
-		"ControlName"	"CModelPanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"MenuBG"
+		"xpos"			"c-230"
+		"ypos"			"60"
+		"zpos"			"1"
+		"wide"			"460"
+		"tall"	 		"350"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"
+		
+		"src_corner_height"		"60"
+		"src_corner_width"		"60"
+		
+		"draw_corner_width"		"10"
+		"draw_corner_height" 	"10"
+	}
+	
+	"ShadedBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBG"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"0" //"f0"
-		"tall"			"0" //"480"
+		"ypos"			"r500"
+		"zpos"			"-5"
+		"wide"			"f0"
+		"tall"			"2000"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fov"			"20"
-
-		"model"
-		{
-			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_y" "0"
-			"origin_z" "-39"
-		}
-	}
-
-	"MenuBG2"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"MenuBG2"
-		"xpos"			"c-170"
-		"ypos"			"c-150"
-		"zpos"			"-1"
-		"wide"			"340"
-		"tall"	 		"286"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-
-		"draw_corner_width"		"8"
-		"draw_corner_height" 	"8"
-	}
-
-	"ShadedBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 128"
+		"tabPosition"	"0"	
+		"fillcolor"		"0 0 0 195"
+		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
-	}
-
+	}						
+	
 	"MessageTitle"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"MessageTitle"
 		"visible"		"0"
 		"enabled"		"0"
-	}
+	}		
 }
