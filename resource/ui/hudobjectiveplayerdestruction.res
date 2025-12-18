@@ -4,8 +4,11 @@
 {
 	"CarriedContainer"
 	{
-		"xpos"		"125"
-		"ypos"		"r90"
+		"xpos"		"0"
+		"ypos"		"r120"
+		
+		"xpos_minmode"		"140"
+		"ypos_minmode"		"r140"
 	}
 	"ScoreContainer"
 	{
