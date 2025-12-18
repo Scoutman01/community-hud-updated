@@ -102,7 +102,7 @@
 		"wrap"			"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"MenuSmallFont"
+		"font"			"HudFontSmallBold"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
 		"sound_armed_minmode"		""

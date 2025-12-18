@@ -108,7 +108,7 @@
 		"wrap"			"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"MenuSmallFont"
+		"font"			"HudFontSmallBold"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
 		"sound_armed_minmode"		""
@@ -135,7 +135,7 @@
 		"brighttext"	"0"
 		"command"		"intro"
 		"default"		"1"
-		"font"			"MenuSmallFont"
+		"font"			"HudFontSmallBold"
 		//"fgcolor"		"Black"
 
 		"defaultbgcolor_override"		"85 85 85 255"
@@ -163,7 +163,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"MenuSmallFont"
+		"font"			"HudFontSmallBold"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
 		"sound_armed_minmode"		""

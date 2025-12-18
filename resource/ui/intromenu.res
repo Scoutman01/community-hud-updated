@@ -52,7 +52,7 @@
 		"wrap"				"0"
 		"command"			"skip"
 		"default"			"1"
-		"font"				"MenuSmallFont"	
+		"font"				"HudFontSmallBold"	
 		"sound_released"	"UI/projector_screen_up_long.wav"
 	}
 
@@ -77,7 +77,7 @@
 		"wrap"				"0"
 		"command"			"skip"
 		"default"			"1"
-		"font"				"MenuSmallFont"
+		"font"				"HudFontSmallBold"
 	}
 	
 	"Back"
@@ -98,7 +98,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"MenuSmallFont"
+		"font"			"HudFontSmallBold"
 		//"fgcolor"		"Black"
 		
 		"sound_released"	"UI/projector_screen_up_long.wav"
@@ -125,7 +125,7 @@
 		"brighttext"	"0"
 		"command"		"replayVideo"
 		"default"		"1"
-		"font"			"MenuSmallFont"
+		"font"			"HudFontSmallBold"
 		//"fgcolor"		"Black"
 		
 		"defaultbgcolor_override"		"75 75 75 255"
