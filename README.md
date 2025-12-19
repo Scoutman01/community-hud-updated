@@ -1,3 +1,14 @@
+# Description
+
+Community HUD (not to be confused with Community HUD fixes made by CriticalFlaw) is a TF2 HUD made by flame and povohat in 2010. It combines two HUDs into one: minmode 0 corresponds to PVHUD and minmode 1 to flameHUD.
+
+In 2020, the HUD was updated by a certain noobynoob, but has since been abandoned. It is this version that I used as a basis for updating Community hud.
+
+# Links (outdated)
+
+- https://etf2l.org/forum/customise/topic-8650/
+- https://code.google.com/archive/p/communitytf2hud/
+
 # Credits
 
 - flame: author of communityHUD and flameHUD
