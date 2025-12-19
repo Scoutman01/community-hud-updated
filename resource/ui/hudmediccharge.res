@@ -50,7 +50,7 @@
 		"labelText_minmode"	"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
 		"fgcolor" 	"Black"
-        "fgcolor_minmode"   "TanLight"
+        "fgcolor_minmode"   "White"
 	}
 
     "IndividualChargesLabel"
@@ -80,7 +80,6 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"fgcolor" 	"White"
-		"fgcolor_minmode"  "TanLight"
 	}
 
 	"ChargeMeter"
