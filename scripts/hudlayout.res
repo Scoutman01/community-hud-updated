@@ -295,40 +295,37 @@
 	
 	"HudMenuEngyBuild"
 	{
-		"fieldName" 		"HudMenuEngyBuild"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"20"
-		"wide"			"f0"
-		"tall"			"480"
+		"fieldName"				"HudMenuEngyBuild"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-115"
+		"ypos"					"249"
+		"wide"					"480"
+		"tall"					"640"
 		"PaintBackgroundType"	"0"
 	}
-
+	
 	"HudMenuEngyDestroy"
 	{
-		"fieldName" 		"HudMenuEngyDestroy"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"20"
-		"wide"			"f0"
-		"tall"			"480"
+		"fieldName"				"HudMenuEngyDestroy"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-115"
+		"ypos"					"249"
+		"wide"					"480"
+		"tall"					"640"
 		"PaintBackgroundType"	"0"
 	}
 
 	"HudEurekaEffectTeleportMenu"
 	{
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"20"
-		"wide"			"f0"
-		"tall"			"480"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-115"
+		"ypos"					"249"
+		"wide"					"480"
+		"tall"					"640"
 		"PaintBackgroundType"	"0"
 	}
 
