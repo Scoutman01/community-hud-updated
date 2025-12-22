@@ -302,9 +302,8 @@
 	{
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
-		"xpos"			"9"
-		"ypos"			"9"	[$WIN32]
-		"ypos"			"0"	[$X360]
+		"xpos"			"-1"
+		"ypos"			"5"	[$WIN32]
 		"zpos"			"99"
 		"wide"			"16"
 		"tall"			"16"
