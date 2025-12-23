@@ -16,7 +16,7 @@
 		"tabPosition"	"0"
 		"labelText"		"Console"
 		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"textinsetx"	"15"
 		"dulltext"		"0"
 		"brighttext"	"0"
