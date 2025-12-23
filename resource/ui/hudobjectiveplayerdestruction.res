@@ -1,10 +1,12 @@
-"#base"		"../../default_hudfiles/resource/ui/hudobjectiveplayerdestruction.res"
+#base "../../default_hudfiles/resource/ui/hudobjectiveplayerdestruction.res"
+
 "resource/ui/hudobjectiveplayerdestruction.res"
 {
 	"CarriedContainer"
 	{
-		"xpos"				"0"
-		"ypos"				"r120"
+		"xpos"		"0"
+		"ypos"		"r120"
+		
 		"xpos_minmode"		"140"
 		"ypos_minmode"		"r140"
 	}
@@ -12,10 +14,11 @@
 	{
 		"ProgressBarContainer"
 		{
-			"xpos"		"c-120"
-			"ypos"		"r45"
-			"wide"		"240"
-			"tall"		"48"
+			"xpos"			"c-120"
+			"ypos"			"r45"
+			"wide"			"240"
+			"tall"			"48"
+
 			"FlagImageBlue"
 			{
 				"wide"		"10"
@@ -56,6 +59,7 @@
 			{
 				"xpos"		"15"
 				"ypos"		"11"
+
 				"VictoryLabel"
 				{
 					"wide"		"89"
@@ -73,6 +77,7 @@
 			{
 				"xpos"		"-15"
 				"ypos"		"11"
+
 				"VictoryLabel"
 				{
 					"wide"		"85"

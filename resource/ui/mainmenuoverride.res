@@ -1,17 +1,21 @@
-"#base"		"../../default_hudfiles/resource/ui/mainmenuoverride.res"
-"#base"		"../../resource/extras/console_button.res"
+#base "../../default_hudfiles/resource/ui/mainmenuoverride.res"
+#base "../../resource/extras/console_button.res"
+
 "resource/ui/mainmenuoverride.res"
 {
+	
 	"FriendsContainer"
 	{
-		"ypos"		"220"
+		"ypos"			"220"
+		
 		"SteamFriendsList"
 		{
-			"columns_count"		"3"
-			"row_gap"			"2"
-			"column_gap"		"2"
-			"inset_x"			"4"
-			"inset_y"			"4"
+			"columns_count"	"3"
+			"row_gap"	"2"
+			"column_gap"	"2"
+			"inset_x"	"4"
+			"inset_y"	"4"
+			
 			"friendpanel_kv"
 			{
 				"wide"		"78"
@@ -19,20 +23,23 @@
 			}
 		}
 	}
+	
 	"RankBorder"
 	{
-		"tall"						"116"
-		"zpos"						"-98"
-		"proportionaltoparent"		"0"
+		"tall"			"116"
+		"zpos"			"-98"
+		"proportionaltoparent"	"0"
 	}
+	
 	"RankPanel"
 	{
-		"tall"						"200"
-		"proportionaltoparent"		"0"
+		"tall"			"200"
+		"proportionaltoparent"	"0"
 	}
+	
 	"EventPromo"
 	{
-		"wide"		"0"
-		"tall"		"0"
+		"wide"			"0"
+		"tall"			"0"
 	}
 }
