@@ -174,3 +174,45 @@ event RDNegativeScorePulse
 }
 
 //====================================
+
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	
+	Animate PlayerStatusSpecHealthValue	FgColor		"100 149 237 255"	Linear 0.0	0.0
+	Animate	PlayerStatusSpecHealthBonusImage 	Alpha		"0"		Linear 0.0	0.0
+
+	RunEvent HudHealthBonusPulseLoop	0.4
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
+	
+	Animate PlayerStatusSpecHealthValue	FgColor		"TanLight"	Linear 0.0	0.0
+}
+
+//====================================
+
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	
+	Animate PlayerStatusSpecHealthValue	FgColor		"255 165 0 255"	Linear 0.0	0.0
+	Animate	PlayerStatusSpecHealthBonusImage 	Alpha		"255"		Linear 0.0	0.0
+	
+	RunEvent HudHealthDyingPulseLoop	0.25
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthDyingPulseLoop 0.0
+	
+	Animate PlayerStatusSpecHealthValue	FgColor		"TanLight"	Linear 0.0	0.0
+}
+
+//====================================

@@ -67,11 +67,11 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"textAlignment"	"center"
-	}	
-	"PlayerStatusHealthValue2"
-	{	
-		"ControlName"		"Label"
-		"fieldName"		"PlayerStatusHealthValue2"
+	}
+	"PlayerStatusSpecHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusSpecHealthValue"
 		"xpos"			"-4"
 		"ypos"			"19"
 		"zpos"			"6"
@@ -79,9 +79,31 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"labeltext"		"%Health%"
 		"textAlignment"		"center"
-		"font"			"HudFontSmallestBorder"
-		"fgcolor"		"0 0 0 255"
-	}								
+		"font"			"StorePromotionsTitle"
+		"fgcolor_override"	"TanLight"
+		"labeltext"		"%Health%"
+		"proportionaltoparent"	"1"
+	}
+	"PlayerStatusHealthValueSpecShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueSpecShadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"6"
+		"wide"			"32"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"		"center"
+		"font"			"StorePromotionsTitle"
+		"fgcolor"		"Black"
+		"labeltext"		"%Health%"
+		"proportionaltoparent"	"1"
+		
+		"pin_to_sibling"	"PlayerStatusSpecHealthValue"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
 }
