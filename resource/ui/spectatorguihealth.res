@@ -91,9 +91,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusPlayerLevel"
-		"xpos"			"8"
-		"xpos_minmode"	"0"
-		"ypos"			"9"
+		"xpos"			"7"
+		"ypos"			"7"
 		"zpos"			"5"
 		"wide"			"16"
 		"tall"			"12"
