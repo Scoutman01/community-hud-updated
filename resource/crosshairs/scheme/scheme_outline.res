@@ -1,6 +1,6 @@
-Scheme
+"Scheme"
 {
-	Fonts
+	"Fonts"
 	{
 		"Size:10 | Outline:ON"
 		{
@@ -13,6 +13,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:11 | Outline:ON"
 		{
 			"1"
@@ -24,6 +25,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:12 | Outline:ON"
 		{
 			"1"
@@ -35,6 +37,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:13 | Outline:ON"
 		{
 			"1"
@@ -46,6 +49,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:14 | Outline:ON"
 		{
 			"1"
@@ -57,6 +61,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:15 | Outline:ON"
 		{
 			"1"
@@ -68,6 +73,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:16 | Outline:ON"
 		{
 			"1"
@@ -79,6 +85,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:17 | Outline:ON"
 		{
 			"1"
@@ -90,6 +97,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:18 | Outline:ON"
 		{
 			"1"
@@ -101,6 +109,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:19 | Outline:ON"
 		{
 			"1"
@@ -112,6 +121,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:20 | Outline:ON"
 		{
 			"1"
@@ -123,6 +133,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:21 | Outline:ON"
 		{
 			"1"
@@ -134,6 +145,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:22 | Outline:ON"
 		{
 			"1"
@@ -145,6 +157,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:23 | Outline:ON"
 		{
 			"1"
@@ -156,6 +169,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:24 | Outline:ON"
 		{
 			"1"
@@ -167,6 +181,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:25 | Outline:ON"
 		{
 			"1"
@@ -178,6 +193,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:26 | Outline:ON"
 		{
 			"1"
@@ -189,6 +205,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:27 | Outline:ON"
 		{
 			"1"
@@ -200,6 +217,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:28 | Outline:ON"
 		{
 			"1"
@@ -211,6 +229,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:29 | Outline:ON"
 		{
 			"1"
@@ -222,6 +241,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
+
 		"Size:30 | Outline:ON"
 		{
 			"1"

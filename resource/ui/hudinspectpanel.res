@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/hudinspectpanel.res"
+"#base"		"../../default_hudfiles/resource/ui/hudinspectpanel.res"
 
 "resource/ui/Hudinspectpanel.res"
 {
@@ -6,7 +6,7 @@
 	{
 		"itemmodelpanel"
 		{
-			"inventory_image_type"	"1" // hq icons
+			"inventory_image_type"		"1"	// hq icons
 		}
 	}
 }

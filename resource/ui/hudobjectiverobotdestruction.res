@@ -1,14 +1,14 @@
-#base "../../default_hudfiles/resource/ui/hudobjectiverobotdestruction.res"
+"#base"		"../../default_hudfiles/resource/ui/hudobjectiverobotdestruction.res"
 
 "resource/ui/hudobjectiveflagpanel.res"
 {
 	"ObjectiveStatusRobotDestruction"
 	{
-		"left_steal_edge_offset"	"75"
-		"right_steal_edge_offset"	"75"
-		"robot_x_offset"			"61"
-		"robot_y_offset"			"36"
-		"robot_x_step"				"20"
+		"left_steal_edge_offset"		"75"
+		"right_steal_edge_offset"		"75"
+		"robot_x_offset"				"61"
+		"robot_y_offset"				"36"
+		"robot_x_step"					"20"
 
 		"robot_kv"
 		{
@@ -26,18 +26,21 @@
 
 		"CarriedProgressBar"
 		{
-			"left_offset"	"20"
-			"right_offset"	"20"
+			"left_offset"		"20"
+			"right_offset"		"20"
 		}
+
 		"FlagValue"
 		{
 			"ypos"		"13"
-		}	
+		}
+
 		"FlagValueShadow"
 		{
 			"ypos"		"14"
 		}
 	}
+
 	"ScoreContainer"
 	{
 		"ProgressBarContainer"
@@ -57,16 +60,19 @@
 					"wide"		"89"
 				}
 			}
+
 			"BlueProgressBarFill"
 			{
-				"wide"		"120"
+				"wide"				"120"
 				"left_offset"		"9"
 			}
+
 			"BlueProgressBarEscrow"
 			{
-				"wide"		"120"
+				"wide"				"120"
 				"left_offset"		"9"
 			}
+
 			"RedVictoryContainer"
 			{
 				"xpos"		"-15"
@@ -77,30 +83,35 @@
 					"wide"		"85"
 				}
 			}
+
 			"RedProgressBarFill"
 			{
 				"xpos"		"120"
 				"wide"		"120"
 			}
+
 			"RedProgressBarEscrow"
 			{
 				"xpos"		"120"
 				"wide"		"120"
 			}
 		}
+
 		"BlueScoreValueContainer"
 		{
 			"Score"
 			{
 				"xpos"		"c-10"
 				"ypos"		"c-12"
-			}	
+			}
+
 			"ScoreShadow"
 			{
 				"xpos"		"c-9"
 				"ypos"		"c-11"
 			}
 		}
+
 		"RedScoreValueContainer"
 		{
 			"Score"
@@ -108,36 +119,41 @@
 				"xpos"		"c-44"
 				"ypos"		"c-12"
 			}
+
 			"ScoreShadow"
 			{
 				"xpos"		"c-43"
 				"ypos"		"c-11"
 			}
 		}
+
 		"BlueStolenContainer"
 		{
 			"ypos"		"r67"
 
 			"IntelValue"
 			{
-				"ypos"				"24"
+				"ypos"		"24"
 			}
+
 			"IntelValueShadow"
 			{
-				"ypos"				"25"
+				"ypos"		"25"
 			}
 		}
+
 		"RedStolenContainer"
 		{
 			"ypos"		"r67"
 
 			"IntelValue"
 			{
-				"ypos"				"24"
+				"ypos"		"24"
 			}
+
 			"IntelValueShadow"
 			{
-				"ypos"				"25"
+				"ypos"		"25"
 			}
 		}
 	}

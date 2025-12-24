@@ -1,6 +1,6 @@
 "resource/hudlayout.res"
 {
-	CustomCrosshair
+	"CustomCrosshair"
 	{
 		//=========================================================================
 		// CROSSHAIR VISIBILITY
@@ -64,7 +64,7 @@
 	// Make sure to use the same "LabelText" as the main crosshair!
 	//=======================================================================================================
 	
-	CustomCrosshairBlurShadow
+	"CustomCrosshairBlurShadow"
 	{
 		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshairBlurShadow" "enabled" "1" "xpos" "0" "ypos" "0" "zpos" "-1" "wide" "f0" "tall" "f0" "textAlignment" "center" "pin_to_sibling" "CustomCrosshair"
 		"labelText"	"?"

@@ -1,6 +1,6 @@
-Scheme
+"Scheme"
 {
-	Fonts
+	"Fonts"
 	{
 		"Size:10 | Outline:OFF"
 		{
@@ -12,6 +12,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:11 | Outline:OFF"
 		{
 			"1"
@@ -22,6 +23,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:12 | Outline:OFF"
 		{
 			"1"
@@ -32,6 +34,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:13 | Outline:OFF"
 		{
 			"1"
@@ -42,6 +45,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:14 | Outline:OFF"
 		{
 			"1"
@@ -52,6 +56,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:15 | Outline:OFF"
 		{
 			"1"
@@ -62,6 +67,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:16 | Outline:OFF"
 		{
 			"1"
@@ -72,6 +78,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:17 | Outline:OFF"
 		{
 			"1"
@@ -82,6 +89,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:18 | Outline:OFF"
 		{
 			"1"
@@ -92,6 +100,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:19 | Outline:OFF"
 		{
 			"1"
@@ -102,6 +111,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:20 | Outline:OFF"
 		{
 			"1"
@@ -112,6 +122,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:21 | Outline:OFF"
 		{
 			"1"
@@ -122,6 +133,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:22 | Outline:OFF"
 		{
 			"1"
@@ -132,6 +144,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:23 | Outline:OFF"
 		{
 			"1"
@@ -142,6 +155,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:24 | Outline:OFF"
 		{
 			"1"
@@ -152,6 +166,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:25 | Outline:OFF"
 		{
 			"1"
@@ -162,6 +177,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:26 | Outline:OFF"
 		{
 			"1"
@@ -172,6 +188,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:27 | Outline:OFF"
 		{
 			"1"
@@ -182,6 +199,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:28 | Outline:OFF"
 		{
 			"1"
@@ -192,6 +210,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:29 | Outline:OFF"
 		{
 			"1"
@@ -202,6 +221,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"Size:30 | Outline:OFF"
 		{
 			"1"
@@ -213,14 +233,14 @@ Scheme
 			}
 		}
 	}
-	
-	CustomFontFiles
+
+	"CustomFontFiles"
 	{
 		"100"
 		{
-			"font" "resource/crosshairs/TF2Crosshairs.ttf"
-			"font" "resource/crosshairs/tf2crosshairs_linux.ttf" [$LINUX]
-			"name" "TF2Crosshairs"
+			"font"		"resource/crosshairs/TF2Crosshairs.ttf"
+			"font"		"resource/crosshairs/tf2crosshairs_linux.ttf" [$LINUX]
+			"name"		"TF2Crosshairs"
 		}
 	}
 }
