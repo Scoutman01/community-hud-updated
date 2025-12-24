@@ -943,42 +943,6 @@
 			"enabled"			"1"
 		}
 
-		"DamageLabel"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"DamageLabel"
-			"font"				"ScoreboardVerySmall"
-			"labelText"			"#TF_Scoreboard_Damage"
-			"textAlignment"		"north-west"
-			"xpos"				"300" [$WIN32]
-			"ypos"				"44" [$WIN32]
-			"zpos"				"3"
-			"wide"				"110"
-			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-		}
-
-		"Damage"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"Damage2"
-			"font"				"ScoreboardVerySmall"
-			"labelText"			"%damage%"
-			"textAlignment"		"north-west"
-			"xpos"				"350" [$WIN32]
-			"ypos"				"44" [$WIN32]
-			"zpos"				"3"
-			"wide"				"110"
-			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-		}
-
 		"BonusLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1375,6 +1339,42 @@
 			"enabled"			"1"
 		}
 
+		"DamageLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"DamageLabel"
+			"font"				"ScoreboardVerySmall"
+			"labelText"			"#TF_Scoreboard_Damage"
+			"textAlignment"		"north-west"
+			"xpos"				"450" [$WIN32]
+			"ypos"				"35" [$WIN32]
+			"zpos"				"3"
+			"wide"				"110"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+		}
+
+		"Damage"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Damage2"
+			"font"				"ScoreboardVerySmall"
+			"labelText"			"%damage%"
+			"textAlignment"		"north-west"
+			"xpos"				"500" [$WIN32]
+			"ypos"				"35" [$WIN32]
+			"zpos"				"3"
+			"wide"				"110"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+		}
+
 		"SupportLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1382,8 +1382,8 @@
 			"font"				"ScoreboardVerySmall"
 			"labelText"			"#TF_Scoreboard_Support"
 			"textAlignment"		"north-west"
-			"xpos"				"450" [$WIN32]
-			"ypos"				"35" [$WIN32]
+			"xpos"				"530" [$WIN32]
+			"ypos"				"5" [$WIN32]
 			"zpos"				"3"
 			"wide"				"110"
 			"tall"				"20"
@@ -1400,8 +1400,8 @@
 			"font"				"ScoreboardVerySmall"
 			"labelText"			"%support%"
 			"textAlignment"		"north-west"
-			"xpos"				"500" [$WIN32]
-			"ypos"				"35" [$WIN32]
+			"xpos"				"580" [$WIN32]
+			"ypos"				"5" [$WIN32]
 			"zpos"				"3"
 			"wide"				"110"
 			"tall"				"20"
@@ -1409,6 +1409,25 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+		}
+
+		"GameType"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"gametype"
+			"font"				"ScoreboardVerySmall"
+			"labelText"			"%gametype%"
+			"textAlignment"		"north-west"
+			"xpos"				"530"
+			"ypos"				"11"
+			"zpos"				"3"
+			"wide"				"145"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"0"
+			"enabled"			"0"
+			"fgcolor"			"185 177 153 255"
 		}
 	}
 
