@@ -348,6 +348,11 @@
 		"tall"				"70"
 	}
 
+	"HudArenaClassLayout"
+	{
+		"zpos"		"20"
+	}
+
 	"HudArenaPlayerCount"
 	{
 		"fieldName"		"HudArenaPlayerCount"
