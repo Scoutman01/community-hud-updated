@@ -74,17 +74,17 @@ event HudSpyDisguiseChanged
 
 // ====================================
 
-event CompetitiveGame_LowerChatWindow
-{
-}
+//event CompetitiveGame_LowerChatWindow
+//{
+//}
 
-event CompetitiveGame_RestoreChatWindow
-{
-}
+//event CompetitiveGame_RestoreChatWindow
+//{
+//}
 
-event HudTournament_MoveChatWindow
-{
-}
+//event HudTournament_MoveChatWindow
+//{
+//}
 
 // ====================================
 
