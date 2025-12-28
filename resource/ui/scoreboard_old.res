@@ -205,8 +205,8 @@
 		"font"				"HudFontSmall"
 		"labelText"			"%blueteamname%"
 		"textAlignment"		"west"
-		"xpos"				"185"
-		"ypos"				"98" [$WIN32]
+		"xpos"				"165"
+		"ypos"				"96" [$WIN32]
 		"wide"				"140"
 		"tall"				"20"
 		"autoResize"		"0"
@@ -272,8 +272,8 @@
 		"font"				"HudFontSmall"
 		"labelText"			"%redteamname%"
 		"textAlignment"		"west"
-		"xpos"				"440"
-		"ypos"				"98" [$WIN32]
+		"xpos"				"420"
+		"ypos"				"96" [$WIN32]
 		"wide"				"140"
 		"tall"				"20"
 		"autoResize"		"0"
