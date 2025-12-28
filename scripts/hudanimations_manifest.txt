@@ -2,6 +2,6 @@
 {
 	"file"		"scripts/hudanimations.txt"
 	"file"		"scripts/hudanimations_custom.txt"
-	"file"		"resource/crosshairs/crosshair_animation.txt"
+	"file"		"customizations/crosshairs/crosshair_animation.txt"
 	"file"		"scripts/hudanimations_tf.txt"
 }

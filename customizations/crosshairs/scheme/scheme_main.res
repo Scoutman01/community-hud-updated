@@ -238,8 +238,8 @@
 	{
 		"100"
 		{
-			"font"		"resource/crosshairs/TF2Crosshairs.ttf"
-			"font"		"resource/crosshairs/tf2crosshairs_linux.ttf" [$LINUX]
+			"font"		"customizations/crosshairs/TF2Crosshairs.ttf"
+			"font"		"customizations/crosshairs/tf2crosshairs_linux.ttf" [$LINUX]
 			"name"		"TF2Crosshairs"
 		}
 	}

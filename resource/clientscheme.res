@@ -1,4 +1,4 @@
-"#base"		"crosshairs/crosshair_scheme.res"
+"#base"		"../customizations/crosshairs/crosshair_scheme.res"
 
 //
 // TRACKER SCHEME RESOURCE FILE

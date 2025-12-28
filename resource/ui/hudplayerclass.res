@@ -1,3 +1,5 @@
+"#base"		"../../customizations/crosshairs/crosshair.res"
+
 "resource/ui/hudplayerclass.res"
 {
 	// player class data
