@@ -9,16 +9,16 @@
 		"autoResize"						"0"
 		"pinCorner"							"0"
 		"enabled"							"1"
-		// Blu (centered -> up)
+		// Blu (centered -> down)
 		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"221"
+		"team1_player_base_y"				"251"
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"-20"	// 20
-		// Red (centered -> down)
+		"team1_player_delta_y"				"20"	// 20
+		// Red (centered -> up)
 		"team2_player_base_offset_x"		"0"	// 275
-		"team2_player_base_y"				"251"	// 221
+		"team2_player_base_y"				"221"	// 221
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"20"
+		"team2_player_delta_y"				"-20"
 
 		"if_mvm"
 		{
