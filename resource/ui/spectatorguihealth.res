@@ -93,12 +93,12 @@
 		"fgcolor"			"Black"
 	}
 
-	"PlayerStatusPlayerLevel"
+	"PlayerStatusPlayerLevel" // This thing appear when you revive someone in mvm (on the health cross)
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PlayerStatusPlayerLevel"
-		"xpos"				"7"
-		"ypos"				"7"
+		"xpos"				"9999" // 7
+		"ypos"				"9999" // 7
 		"zpos"				"5"
 		"wide"				"16"
 		"tall"				"12"
