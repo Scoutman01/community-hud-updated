@@ -21,6 +21,8 @@
 		"fieldName"				"DamageAccountValue"
 		"xpos"					"c-227"
 		"ypos"					"r90"
+		"xpos_minmode"			"c-258"
+		"ypos_minmode"			"r155"
 		"zpos"					"2"
 		"wide"					"100"
 		"tall"					"26"
@@ -30,6 +32,7 @@
 		"labelText"				"%metal%"
 		"textAlignment"			"center"
 		"fgcolor"				"255 255 0 255"
+		"fgcolor_minmode"		"255 0 0 255"
 		"font"					"HudFontBiggerBold"
 	}
 
@@ -39,6 +42,8 @@
 		"fieldName"				"DamageAccountValue"
 		"xpos"					"c-225"
 		"ypos"					"r88"
+		"xpos_minmode"			"c-257"
+		"ypos_minmode"			"r154"
 		"zpos"					"1"
 		"wide"					"100"
 		"tall"					"26"
