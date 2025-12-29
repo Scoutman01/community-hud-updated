@@ -854,7 +854,7 @@
 			"enabled"			"1"
 		}
 
-		"Kills"
+		"Kills2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Kills2"
@@ -890,7 +890,7 @@
 			"enabled"			"1"
 		}
 
-		"Deaths"
+		"Deaths2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Deaths2"
@@ -926,7 +926,7 @@
 			"enabled"			"1"
 		}
 
-		"Assists"
+		"Assists2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Assists2"
@@ -962,7 +962,7 @@
 			"enabled"			"1"
 		}
 
-		"Bonus"
+		"Bonus2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Bonus2"
@@ -998,7 +998,7 @@
 			"enabled"			"1"
 		}
 
-		"Domination"
+		"Domination2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Domination2"
@@ -1034,7 +1034,7 @@
 			"enabled"			"1"
 		}
 
-		"Captures"
+		"Captures2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Captures2"
@@ -1070,7 +1070,7 @@
 			"enabled"			"1"
 		}
 
-		"Defenses"
+		"Defenses2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Defenses2"
@@ -1106,7 +1106,7 @@
 			"enabled"			"1"
 		}
 
-		"Destruction"
+		"Destruction2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Destruction2"
@@ -1142,7 +1142,7 @@
 			"enabled"			"1"
 		}
 
-		"Revenge"
+		"Revenge2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Revenge2"
@@ -1178,7 +1178,7 @@
 			"enabled"			"1"
 		}
 
-		"Backstabs"
+		"Backstabs2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Backstabs2"
@@ -1214,7 +1214,7 @@
 			"enabled"			"1"
 		}
 
-		"Headshots"
+		"Headshots2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Headshots2"
@@ -1250,7 +1250,7 @@
 			"enabled"			"1"
 		}
 
-		"Teleports"
+		"Teleports2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Teleports2"
@@ -1286,7 +1286,7 @@
 			"enabled"			"1"
 		}
 
-		"Healing"
+		"Healing2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Healing2"
@@ -1322,7 +1322,7 @@
 			"enabled"			"1"
 		}
 
-		"Invuln"
+		"Invuln2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Invuln2"
@@ -1358,7 +1358,7 @@
 			"enabled"			"1"
 		}
 
-		"Damage"
+		"Damage2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Damage2"
@@ -1394,7 +1394,7 @@
 			"enabled"			"1"
 		}
 
-		"Support"
+		"Support2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Support2"
@@ -1429,6 +1429,166 @@
 			"visible"			"0"
 			"enabled"			"0"
 			"fgcolor"			"185 177 153 255"
+		}
+
+		"Kills"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Kills"
+			"wide"				"0"
+			"tall"				"0"
+			"visible"			"0"
+			"enabled"			"0"
+		}
+
+		"Deaths"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Deaths"
+			"wide"				"0"
+			"tall"				"0"
+			"visible"			"0"
+			"enabled"			"0"
+		}
+
+		"Assists"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Assists"
+			"wide"				"0"
+			"tall"				"0"
+			"visible"			"0"
+			"enabled"			"0"
+		}
+
+		"Destruction"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Destruction"
+			"wide"				"0"
+			"tall"				"0"
+			"visible"			"0"
+			"enabled"			"0"
+		}
+
+		"Captures"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Captures"
+			"wide"				"0"
+			"tall"				"0"
+			"visible"			"0"
+			"enabled"			"0"
+		}
+
+		"Defenses"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Defenses"
+			"wide"				"0"
+			"tall"				"0"
+			"visible"			"0"
+			"enabled"			"0"
+		}
+
+		"Domination"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Domination"
+			"wide"				"0"
+			"tall"				"0"
+			"visible"			"0"
+			"enabled"			"0"
+		}
+
+		"Revenge"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Revenge"
+			"wide"				"0"
+			"tall"				"0"
+			"visible"			"0"
+			"enabled"			"0"
+		}
+
+		"Healing"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Healing"
+			"wide"				"0"
+			"tall"				"0"
+			"visible"			"0"
+			"enabled"			"0"
+		}
+
+		"Invuln"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Invuln"
+			"wide"				"0"
+			"tall"				"0"
+			"visible"			"0"
+			"enabled"			"0"
+		}
+
+		"Teleports"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Teleports"
+			"wide"				"0"
+			"tall"				"0"
+			"visible"			"0"
+			"enabled"			"0"
+		}
+
+		"Headshots"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Headshots"
+			"wide"				"0"
+			"tall"				"0"
+			"visible"			"0"
+			"enabled"			"0"
+		}
+
+		"Backstabs"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Backstabs"
+			"wide"				"0"
+			"tall"				"0"
+			"visible"			"0"
+			"enabled"			"0"
+		}
+
+		"Bonus"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Bonus"
+			"wide"				"0"
+			"tall"				"0"
+			"visible"			"0"
+			"enabled"			"0"
+		}
+
+		"Support"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Support"
+			"wide"				"0"
+			"tall"				"0"
+			"visible"			"0"
+			"enabled"			"0"
+		}
+
+		"Damage"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Damage"
+			"wide"				"0"
+			"tall"				"0"
+			"visible"			"0"
+			"enabled"			"0"
 		}
 	}
 
