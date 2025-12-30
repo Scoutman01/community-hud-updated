@@ -95,7 +95,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"BluText"
-		"xpos"				"c-41"
+		"xpos"				"c-47"
 		"ypos"				"192"
 		"zpos"				"3"
 		"wide"				"50"
@@ -105,7 +105,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"3"
-		"labelText"			"BLU" [$WIN32]
+		"labelText"			"3. BLU" [$WIN32]
 		"textAlignment"		"west"
 		"font"				"HudFontSmallBold"
 		"fgcolor"			"255 255 255 255"
@@ -143,7 +143,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"RedText"
-		"xpos"				"c10"
+		"xpos"				"c0"
 		"ypos"				"192"
 		"zpos"				"3"
 		"wide"				"50"
@@ -153,7 +153,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"3"
-		"labelText"			"RED" [$WIN32]
+		"labelText"			"4. RED" [$WIN32]
 		"textAlignment"		"west"
 		"font"				"HudFontSmallBold"
 		"fgcolor"			"255 255 255 255"
@@ -184,6 +184,27 @@
 		"fgcolor"				"0 0 0 0"
 	}
 
+	"RandomShortcutLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"RandomShortcutLabel"
+		"xpos"				"c-36"
+		"ypos"				"175"
+		"zpos"				"2"
+		"wide"				"30"
+		"tall"				"30"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"1. "
+		"textAlignment"		"west"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"font"				"HudFontSmallest"
+		"fgcolor"			"255 255 255 255"
+	}
+
 	"RandomText"
 	{
 		"ControlName"		"CExLabel"
@@ -196,7 +217,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"1"
-		"labelText"			"RANDOM" [$WIN32]
+		"labelText"			"#TF_Random" [$WIN32]
 		"font"				"HudFontSmallest"
 		"fgcolor"			"255 255 255 255"
 	}
@@ -226,6 +247,27 @@
 		"fgcolor"				"0 0 0 0"
 	}
 
+	"SpectateShortcutLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"SpectateShortcutLabel"
+		"xpos"				"c-36"
+		"ypos"				"245"
+		"zpos"				"3"
+		"wide"				"30"
+		"tall"				"30"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"2. "
+		"textAlignment"		"west"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"font"				"HudFontSmallest"
+		"fgcolor"			"255 255 255 255"
+	}
+
 	"SpecText"
 	{
 		"ControlName"		"CExLabel"
@@ -238,7 +280,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"2"
-		"labelText"			"SPECTATE" [$WIN32]
+		"labelText"			"#TF_Spectate" [$WIN32]
 		"textAlignment"		"left"
 		"font"				"HudFontSmallest"
 		"fgcolor"			"255 255 255 255"
