@@ -121,7 +121,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamScore"
-			"font"				"HudFontBold70"
+			"font"				"HudFontBold60"
 			"labelText"			"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"				"95"
@@ -139,7 +139,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamScoreDropshadow"
-			"font"				"HudFontBold70"
+			"font"				"HudFontBold60"
 			"fgcolor"			"Black"
 			"labelText"			"%blueteamscore%"
 			"textAlignment"		"east"
@@ -195,7 +195,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScore"
-			"font"				"HudFontBold70"
+			"font"				"HudFontBold60"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"				"207"
@@ -215,7 +215,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScoreDropshadow"
-			"font"				"HudFontBold70"
+			"font"				"HudFontBold60"
 			"fgcolor"			"Black"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"

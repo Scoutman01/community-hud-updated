@@ -914,12 +914,12 @@
 			}
 		}
 
-		"HudFontBold70"
+		"HudFontBold60"
 		{
 			"1"
 			{
 				"name"			"TF2 Build"
-				"tall"			"70"
+				"tall"			"60"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
@@ -1035,6 +1035,18 @@
 				"additive"			"0"
 				"antialias"			"1"
 				"dropshadow"		"1"
+			}
+		}
+
+		"HudFontBold20"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"20"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
 			}
 		}
 
