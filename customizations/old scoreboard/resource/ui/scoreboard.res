@@ -206,7 +206,7 @@
 		"labelText"			"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"				"165"
-		"ypos"				"96" [$WIN32]
+		"ypos"				"95" [$WIN32]
 		"wide"				"140"
 		"tall"				"20"
 		"autoResize"		"0"
@@ -273,7 +273,7 @@
 		"labelText"			"%redteamname%"
 		"textAlignment"		"west"
 		"xpos"				"420"
-		"ypos"				"96" [$WIN32]
+		"ypos"				"95" [$WIN32]
 		"wide"				"140"
 		"tall"				"20"
 		"autoResize"		"0"
