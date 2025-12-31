@@ -1001,6 +1001,20 @@
 			}
 		}
 
+		"HudFontMediumOutline"
+		{
+			"1"
+			{
+				"name"				"TF2"
+				"tall"				"24"
+				"tall_lodef"		"28"
+				"weight"			"500"
+				"additive"			"0"
+				"antialias"			"1"
+				"outline"			"1"
+			}
+		}
+
 		"HudFontMediumSecondary"
 		{
 			"1"
@@ -1073,6 +1087,21 @@
 				"weight"			"500"
 				"additive"			"0"
 				"antialias"			"1"
+			}
+		}
+
+		"HudFontMediumSmallOutline"
+		{
+			"1"
+			{
+				"name"				"TF2"
+				"tall"				"18"
+				"tall_hidef"		"24"
+				"tall_lodef"		"18"
+				"weight"			"500"
+				"additive"			"0"
+				"antialias"			"1"
+				"outline"			"1"
 			}
 		}
 
