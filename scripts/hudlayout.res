@@ -209,6 +209,23 @@
 		"LocalBackgroundColor"		"255 255 255 200" [$WIN32]
 	}
 
+	"HudCloseCaption"
+	{
+		"fieldName"				"HudCloseCaption"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-100"
+		"ypos"					"320" [$WIN32]
+		"wide"					"200"
+		"tall"					"100" [$WIN32]
+		"BgAlpha"				"125"
+		"GrowTime"				"0.25"
+		"ItemHiddenTime"		"0.2"	// Nearly same as grow time so that the item doesn't start to show until growth is finished
+		"ItemFadeInTime"		"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
+		"ItemFadeOutTime"		"0.3"
+		"topoffset"				"0"
+	}
+
 	"HudVoiceStatus"
 	{
 		"fieldName"				"HudVoiceStatus"

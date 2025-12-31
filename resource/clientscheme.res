@@ -1639,15 +1639,14 @@
 			}
 		}
 
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{
-				"name"				"Tahoma"
-				"tall"				"24"
-				"tall_hidef"		"32"
-				"weight"			"500"
-				"range"				"0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"			"TF2 Secondary"
+				"tall"			"12"
+				"weight"		"500"
+				"range"			"0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 
@@ -1655,12 +1654,11 @@
 		{
 			"1"
 			{
-				"name"				"Tahoma"
-				"tall"				"24"
-				"tall_hidef"		"32"
-				"weight"			"500"
-				"italic"			"1"
-				"range"				"0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"			"TF2 Secondary"
+				"tall"			"12"
+				"weight"		"500"
+				"italic"		"1"
+				"range"			"0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 
@@ -1668,11 +1666,10 @@
 		{
 			"1"
 			{
-				"name"				"Tahoma"
-				"tall"				"24"
-				"tall_hidef"		"32"
-				"weight"			"900"
-				"range"				"0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"			"TF2 Secondary"
+				"tall"			"12"
+				"weight"		"900"
+				"range"			"0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 
@@ -1680,12 +1677,11 @@
 		{
 			"1"
 			{
-				"name"				"Tahoma"
-				"tall"				"24"
-				"tall_hidef"		"32"
-				"weight"			"900"
-				"italic"			"1"
-				"range"				"0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"			"TF2 Secondary"
+				"tall"			"12"
+				"weight"		"900"
+				"italic"		"1"
+				"range"			"0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 
@@ -1693,13 +1689,14 @@
 		{
 			"1"
 			{
-				"name"				"Tahoma"
+				"name"				"TF2 Secondary"
 				"tall"				"16"
 				"tall_hidef"		"24"
 				"weight"			"900"
 				"range"				"0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
+
 
 		// this is the symbol font
 		"Marlett"
