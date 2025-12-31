@@ -1,5 +1,5 @@
 "#base"		"../default_hudfiles/scripts/hudlayout.res"
-"#base"		"../customizations/transparent viewmodel/transparent_viewmodel.res"
+"#base"		"transparent_viewmodel.res"
 
 "resource/hudlayout.res"
 {
