@@ -42,5 +42,6 @@ These links are kept for historical reference and documentation purposes only:
 * Snowshoe: author of [TF2HudPlus](https://github.com/SnowshoeIceboot/tf2hudplus) (main menu, loadout, item selection)
 * CriticalFlaw: author of [Community HUD fixes](https://github.com/CriticalFlaw/tf2hud-fixes) (player destruction, robot destruction, item quickswitch)
 * Sinders: author of [e.v.e HUD](https://gamebanana.com/mods/26852) (engineer build/destroy/eureka effect, server welcome, map info, map intro)
+* Griever: author of [ToonHUD](https://toonhud.com/) (close captions)
 * Thespikedballofdoom: [2013 Item borders and color](https://gamebanana.com/mods/27051)
 * Doodles: [HUD guide](https://doodlesstuff.com/?p=tf2hud&page=preface)
