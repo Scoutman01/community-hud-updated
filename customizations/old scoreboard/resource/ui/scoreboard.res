@@ -88,7 +88,6 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"RedTeamImage"
-		"fieldName"			"BlueTeamImage"
 		"xpos"				"c50"
 		"ypos"				"c-235"
 		"zpos"				"2"
@@ -545,29 +544,6 @@
 		"enabled"			"0"
 		"image"				"../hud/class_scoutred"
 		"scaleImage"		"1"
-
-		"if_mvm"
-		{
-			"visible"		"0"
-		}
-	}
-
-	"PlayerNameLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"PlayerNameLabel"
-		"font"				"ScoreboardMedium"
-		"labelText"			"%playername%"
-		"textAlignment"		"west"
-		"xpos"				"165"
-		"ypos"				"277" [$WIN32]
-		"zpos"				"3"
-		"wide"				"325" [$WIN32]
-		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"0"
 
 		"if_mvm"
 		{
