@@ -35,6 +35,8 @@
 		"xpos"				"325"
 		"xpos_lodef"		"105"
 		"ypos"				"417"
+		//"ypos"				"362" // 12 players
+		//"ypos"				"276" // 6 players
 		"zpos"				"3"
 		"wide"				"180"
 		"tall"				"20"
@@ -162,6 +164,8 @@
 		"zpos"						"0"
 		"wide"						"255"
 		"tall"						"235"
+		//"tall"						"177" // 12 players
+		//"tall"						"91" // 6 players
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -184,6 +188,8 @@
 		"zpos"						"0"
 		"wide"						"255"
 		"tall"						"235"
+		//"tall"						"177" // 12 players
+		//"tall"						"91" // 6 players
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -364,6 +370,8 @@
 		"textAlignment"		"west"
 		"xpos"				"260"
 		"ypos"				"349"
+		//"ypos"				"290" // 12 players
+		//"ypos"				"204" // 6 players
 		"wide"				"360"
 		"tall"				"20"
 		"autoResize"		"0"
@@ -386,6 +394,8 @@
 		"zpos"				"20"
 		"wide"				"255"
 		"tall"				"245" [$WIN32]
+		//"tall"				"187" // 12 players
+		//"tall"				"100" // 6 players
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -409,6 +419,8 @@
 		"zpos"				"20"
 		"wide"				"255"
 		"tall"				"245" [$WIN32]
+		//"tall"				"187" // 12 players
+		//"tall"				"100" // 6 players
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -454,6 +466,8 @@
 		"textAlignment"		"west"
 		"xpos"				"260"
 		"ypos"				"360" [$WIN32]
+		//"ypos"				"301" // 12 players
+		//"ypos"				"215" // 6 players
 		"zpos"				"4"
 		"wide"				"360"
 		"tall"				"20"
@@ -828,6 +842,8 @@
 		"fieldName"			"LocalPlayerStatsPanel"
 		"xpos"				"0"
 		"ypos"				"375"
+		//"ypos"				"316" // 12 players
+		//"ypos"				"230" // 6 players
 		"zpos"				"3"
 		"wide"				"600"
 		"tall"				"448"
@@ -835,6 +851,11 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
+
+		"if_mvm"
+		{
+			"ypos"				"375"
+		}
 
 		"KillsLabel"
 		{
