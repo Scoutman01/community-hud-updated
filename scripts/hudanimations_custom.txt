@@ -31,20 +31,20 @@ event HudLowAmmoPulseStop
 // Flash the medic charge hud when we have full charge
 event HudMedicCharged
 {
-    // Animate	ChargeLabel 		FgColor		"Red"			Linear 0.0 0.2
-    // Animate	ChargeLabel 		FgColor		"Orange"		Linear 0.2 0.2
-    // Animate	ChargeLabel 		FgColor		"255 255 0 255"		Linear 0.4 0.2
-    // Animate	ChargeLabel 		FgColor		"0 255 0 255"		Linear 0.6 0.2
-    // Animate	ChargeLabel 		FgColor		"0 0 255 0"		Linear 0.8 0.2
-    // Animate	ChargeLabel 		FgColor		"255 0 255 255"		Linear 1.0 0.2
+	Animate	ChargeLabelAnimation 		FgColor		"Red"			Linear 0.0 0.2
+    Animate	ChargeLabelAnimation 		FgColor		"Orange"		Linear 0.2 0.2
+    Animate	ChargeLabelAnimation 		FgColor		"255 255 0 255"		Linear 0.4 0.2
+    Animate	ChargeLabelAnimation 		FgColor		"0 255 0 255"		Linear 0.6 0.2
+    Animate	ChargeLabelAnimation 		FgColor		"0 0 255 0"		Linear 0.8 0.2
+    Animate	ChargeLabelAnimation 		FgColor		"255 0 255 255"		Linear 1.0 0.2
+
     Animate     ChargeMeter            FgColor     Red                Linear    0.0      0.2
     Animate     ChargeMeter            FgColor     Orange             Linear    0.2      0.2
     Animate     ChargeMeter            FgColor     "255 255 0 255"    Linear    0.4      0.2
     Animate     ChargeMeter            FgColor     "0 255 0 255"      Linear    0.6      0.2
     Animate     ChargeMeter            FgColor     "0 0 255 0"        Linear    0.8      0.2
     Animate     ChargeMeter            FgColor     "255 0 255 255"    Linear    1.0      0.2
-    Animate     ScreenshotPanel        Position    "c-83 -50"         Linear    0.0      0.001
-    Animate     ScreenshotPanel        Position    "c-83 13"          Spline    0.001    0.2
+
     RunEvent    HudMedicChargedLoop    1.2
 }
 
@@ -58,7 +58,8 @@ event HudMedicChargedStop
 {
     StopEvent    HudMedicCharged        0.0
     StopEvent    HudMedicChargedLoop    0.0
-    // Animate	ChargeLabel 	FgColor		"Black"		Linear 0.0 0.0001
+
+	Animate      ChargeLabelAnimation 	FgColor	   "0 0 0 0"   Linear    0.0    0.1
     Animate      ChargeMeter            FgColor    TanLight    Linear    0.0    0.0001
 }
 

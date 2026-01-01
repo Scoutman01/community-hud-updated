@@ -53,6 +53,32 @@
 		"fgcolor_minmode"		"White"
 	}
 
+	"ChargeLabelAnimation"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ChargeLabelAnimation"
+		"font"					"HudFontMediumSmallBold"
+		"font_minmode"			"HudFontGiantBoldShadow"
+		"xpos"					"-3"
+		"xpos_minmode"			"2"
+		"ypos"					"0"
+		"ypos_minmode"			"35"
+		"zpos"					"7"
+		"wide"					"170"
+		"wide_minmode"			"100"
+		"tall"					"40"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"0"
+		"visible_minmode"		"1"
+		"enabled"				"1"
+		"tabPosition"			"5"
+		"labelText"				"#TF_Ubercharge"
+		"labelText_minmode"		"#TF_UberchargeMinHUD"
+		"textAlignment"			"center"
+		"fgcolor"				"0 0 0 0"
+	}
+
 	"IndividualChargesLabel"
 	{
 		"ControlName"			"CExLabel"
