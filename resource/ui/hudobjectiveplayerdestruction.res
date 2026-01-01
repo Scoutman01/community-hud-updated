@@ -2,6 +2,18 @@
 
 "resource/ui/hudobjectiveplayerdestruction.res"
 {
+	"PlayingTo"
+	{
+		"xpos"				"c-50"
+		"xpos_minmode"		"c-70"
+	}
+
+	"PlayingToBG"
+	{
+		"xpos"				"c-55"
+		"xpos_minmode"		"c-75"
+	}
+
 	"CarriedContainer"
 	{
 		"xpos"				"0"
@@ -14,10 +26,11 @@
 	{
 		"ProgressBarContainer"
 		{
-			"xpos"		"c-120"
-			"ypos"		"r45"
-			"wide"		"240"
-			"tall"		"48"
+			"xpos"				"c-100"
+			"xpos_minmode"		"c-120"
+			"ypos"				"r45"
+			"wide"				"240"
+			"tall"				"48"
 
 			"FlagImageBlue"
 			{
@@ -108,6 +121,9 @@
 
 		"BlueScoreValueContainer"
 		{
+			"xpos"				"100"
+			"xpos_minmode"		"80"
+
 			"Score"
 			{
 				"xpos"		"c-10"
@@ -123,6 +139,9 @@
 
 		"RedScoreValueContainer"
 		{
+			"xpos"				"r120"
+			"xpos_minmode"		"r140"
+
 			"Score"
 			{
 				"xpos"		"c-44"
@@ -139,6 +158,8 @@
 
 	"CountdownContainer"
 	{
-		"ypos"		"r90"
+		"xpos"				"c-130"
+		"xpos_minmode"		"c-150"
+		"ypos"				"r90"
 	}
 }
