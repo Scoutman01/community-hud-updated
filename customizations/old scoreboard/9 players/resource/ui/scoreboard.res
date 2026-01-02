@@ -381,7 +381,7 @@
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"BluePlayerList"
 		"xpos"				"100"
-		"ypos"				"56"
+		"ypos"				"57"
 		"zpos"				"20"
 		"wide"				"255"
 		"tall"				"142" [$WIN32]
@@ -404,7 +404,7 @@
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"RedPlayerList"
 		"xpos"				"100"
-		"ypos"				"210"
+		"ypos"				"211"
 		"zpos"				"20"
 		"wide"				"255"
 		"tall"				"142" [$WIN32]
@@ -862,7 +862,7 @@
 			"xpos"				"320"
 			"ypos"				"28" [$WIN32]
 			"zpos"				"3"
-			"wide"				"35"
+			"wide"				"36"
 			"tall"				"20"
 			"autoResize"		"0"
 			"pinCorner"			"0"
