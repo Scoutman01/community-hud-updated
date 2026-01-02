@@ -35,7 +35,7 @@ These links are kept for historical reference and documentation purposes only:
 
 # Credits
 
-* flame: author of communityHUD and flameHUD
+* flame: author of communityHUD and [flameHUD](https://github.com/mattr0d/flamehud)
 * povohat: author of communityHUD and PVHUD
 * noobynoob: the basis of this updated version
 * Hypnotize: [HUD update guide](https://github.com/Hypnootize/HUDs-Update-Guide), [default HUD files](https://github.com/Hypnootize/TF2-Default-HUD), update of [PVHUD](https://github.com/TF2HUDsArchive/PV-Hud) and [flameHUD](https://github.com/TF2HUDsArchive/Flame-Hud), [crosshairs](https://github.com/Hypnootize/TF2-HUD-Crosshairs)
@@ -45,3 +45,59 @@ These links are kept for historical reference and documentation purposes only:
 * Griever: author of [ToonHUD](https://toonhud.com/) (close captions)
 * Thespikedballofdoom: [2013 Item borders and color](https://gamebanana.com/mods/27051)
 * Doodles: [HUD guide](https://doodlesstuff.com/?p=tf2hud&page=preface)
+
+# Customizations
+
+**Root folder**: The main HUD directory, where `info.vdf`, `resource`, and `scripts` are located.
+
+---
+
+## Old Scoreboard
+
+This customization is located in `customizations/old scoreboard`.
+
+Choose the version you prefer:
+- **16 players**
+- **9 players**
+
+(Check the screenshots to see how each version looks.)
+
+Once you have chosen a version, copy the `resource` folder into the root folder.
+If your file manager asks to replace existing files, select **Yes**.
+
+## Crosshair
+
+This customization is located in `customizations/crosshairs`.
+
+Open the `crosshair.res` file with a text editor and follow the instructions written inside the file.
+
+## Transparent Viewmodel
+
+This customization is located in `customizations/transparent viewmodel`.
+
+Copy the `materials` and `scripts` folders into the root folder.
+
+### Disabling the transparent viewmodel
+
+If you want to disable this customization after installing it:
+1. Go to the `scripts` folder inside the root folder.
+2. Open `transparent_viewmodel.res` with a text editor.
+3. Change the values of `visible` and `enabled` to `"0"`.
+
+### Important notes
+
+source: https://www.teamfortress.tv/21928/transparent-viewmodels-in-any-hud
+
+```
+The Transparent Viewmodel customization should't be used with a dxlevel lower than 90.
+dxlevel 80/81 doesn't support the refract material, which mostly means that if you enable this customization your screen will simply turn white!
+
+If you are having problems you might want to edit your fps config so that certain console commands don't disable your viewmodels' transparency:
+
+mat_motion_blur_enabled 1 			//the only sure-fire way to keep refract masking on
+mat_motion_blur_strength 0 			//effectively disables motion blur, personal choice + motion blur gets masked and looks bad with refract masking
+mat_disable_bloom 1 				//disables bloom so refract masking doesn't create a dark rectangle over light materials
+mat_hdr_level 0
+mat_colcorrection_disableentities 1
+mat_colorcorrection 0
+```
