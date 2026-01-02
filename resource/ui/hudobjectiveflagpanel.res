@@ -485,14 +485,14 @@
 		"fieldName"			"PoisonTimeLabel"
 		"xpos"				"cs-0.5"
 		"ypos"				"r65"
-		"zpos"				"6"
+		"zpos"				"11"
 		"wide"				"40"
 		"tall"				"20"
 		"visible"			"0"
 		"enabled"			"1"
 		"textAlignment"		"center"
 		"labelText"			"%redscore%"
-		"font"				"HudFontMediumBold"
+		"font"				"HudFontMediumBoldShadow"
 		"fgcolor"			"TanLight"
 	}
 
