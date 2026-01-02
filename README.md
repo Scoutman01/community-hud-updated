@@ -25,6 +25,8 @@ The goal of this project is to **modernize Community HUD while preserving its or
 Due to the age of the original HUD and the evolution of TF2’s UI system, many elements had to be reused or adapted from modern versions of **PVHUD** and **flameHUD**.
 Additionally, **e.v.e HUD** was used as a reference and basis for several UI components.
 
+[Screenshots](https://imgur.com/a/iYY6OGO)
+
 ### Recommended settings
 
 For the best experience with this HUD, it is recommended to adjust the following settings in the **Advanced Options** menu (under **HUD options**):
