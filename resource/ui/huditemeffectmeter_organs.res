@@ -6,9 +6,9 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c130" [$WIN32]
-		"xpos_minmode"		"c95" [$WIN32]
+		"xpos_minmode"		"c70" [$WIN32]
 		"ypos"				"r85" [$WIN32]
-		"ypos_minmode"		"r140" [$WIN32]
+		"ypos_minmode"		"r80" [$WIN32]
 		"xpos"				"r194" [$X360]
 		"ypos"				"r74" [$X360]
 		"wide"				"150"
