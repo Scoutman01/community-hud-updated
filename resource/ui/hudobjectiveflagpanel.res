@@ -470,7 +470,7 @@
 		"fieldName"			"PoisonIcon"
 		"xpos"				"cs-0.5"
 		"ypos"				"r75"
-		"zpos"				"6"
+		"zpos"				"11"
 		"wide"				"40"
 		"tall"				"o1"
 		"visible"			"0"
