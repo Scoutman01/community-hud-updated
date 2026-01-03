@@ -25,6 +25,8 @@ The goal of this project is to **modernize Community HUD while preserving its or
 Due to the age of the original HUD and the evolution of TF2’s UI system, many elements had to be reused or adapted from modern versions of **PVHUD** and **flameHUD**.
 Additionally, **e.v.e HUD** was used as a reference and basis for several UI components.
 
+The HUD has been primarily tested on 16:9 resolutions, but it should also work correctly on other aspect ratios.
+
 [Screenshots](https://imgur.com/a/iYY6OGO)
 
 ### Recommended settings
