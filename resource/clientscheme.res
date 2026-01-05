@@ -2779,7 +2779,7 @@
 		{
 			"1"
 			{
-				"name"			"OCR A Extended" [$WINDOWS]
+				//"name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"10"
 				"weight"		"400"
@@ -2790,7 +2790,7 @@
 
 			"2"
 			{
-				"name"			"OCR A Extended" [$WINDOWS]
+				//"name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"14"
 				"weight"		"400"
@@ -2801,7 +2801,7 @@
 
 			"3"
 			{
-				"name"			"OCR A Extended" [$WINDOWS]
+				//"name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"18"
 				"weight"		"400"
@@ -2815,7 +2815,7 @@
 		{
 			"1"
 			{
-				"name"			"OCR A Extended" [$WINDOWS]
+				//"name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"10"
 				"weight"		"800"
@@ -2826,7 +2826,7 @@
 
 			"2"
 			{
-				"name"			"OCR A Extended" [$WINDOWS]
+				//"name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"14"
 				"weight"		"800"
@@ -2837,7 +2837,7 @@
 
 			"3"
 			{
-				"name"			"OCR A Extended" [$WINDOWS]
+				//"name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"18"
 				"weight"		"800"
@@ -2851,7 +2851,7 @@
 		{
 			"1"
 			{
-				"name"			"OCR A Extended" [$WINDOWS]
+				//"name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"16"
 				"weight"		"400"
@@ -3340,7 +3340,7 @@
 		{
 			"1"
 			{
-				"name"			"OCR A Extended" [$WINDOWS]
+				//"name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"7"
 				"weight"		"0"
@@ -3354,7 +3354,7 @@
 		{
 			"1"
 			{
-				"name"			"OCR A Extended" [$WINDOWS]
+				//"name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"7"
 				"weight"		"400"
@@ -3367,7 +3367,7 @@
 		{
 			"1"
 			{
-				"name"			"OCR A Extended" [$WINDOWS]
+				//"name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"10"
 				"weight"		"400"
@@ -3380,7 +3380,7 @@
 		{
 			"1"
 			{
-				"name"			"OCR A Extended" [$WINDOWS]
+				//"name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"14"
 				"weight"		"400"
@@ -3393,7 +3393,7 @@
 		{
 			"1"
 			{
-				"name"			"OCR A Extended" [$WINDOWS]
+				//"name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"30"
 				"weight"		"400"
