@@ -451,8 +451,8 @@
 		"font"				"ScoreboardVerySmall"
 		"labelText"			"%spectators%"
 		"textAlignment"		"west"
-		"xpos"				"280"
-		"ypos"				"350" [$WIN32]
+		"xpos"				"100"
+		"ypos"				"428"
 		"zpos"				"4"
 		"wide"				"360"
 		"tall"				"20"
