@@ -415,6 +415,7 @@
 		"wide"				"166"
 		"tall"				"40"
 		"visible"			"0"
+		"alpha"				"0"
 
 		"ScreenshotPanelBG"
 		{
