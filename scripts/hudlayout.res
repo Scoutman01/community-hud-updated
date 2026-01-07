@@ -136,11 +136,25 @@
 
     "HudVoiceStatus"
     {
-        "ypos"                  "-35"
-        "show_avatar"           "1"
-        "dead_xpos"             "14"
-        "icon_xpos"             "0"
-        "text_xpos"             "45"
+        "xpos"                          "r177"
+        "ypos"                          "-45"
+        "ypos_minmode"                  "-55"
+        "zpos"                          "100"
+        "wide"                          "175"
+        "item_wide"                     "170"
+        "item_tall"                     "16"
+        "fade_in_time"                  "0.06"
+        "fade_in_time_minmode"          "0.03"
+        "fade_out_time"                 "0.5"
+        "fade_out_time_minmode"         "0.2"
+        "show_avatar"                   "1"
+        "avatar_xpos"                   "30"
+        "avatar_ypos"                   "0"
+        "avatar_wide"                   "16"
+        "avatar_tall"                   "16"
+        "dead_xpos"                     "-2"
+        "icon_xpos"                     "12"
+        "text_xpos"                     "58"
     }
 
     "WinPanel"
@@ -225,9 +239,9 @@
 
     "HudMenuTauntSelection"
     {
-        "xpos"              "c-105"
-        "ypos"              "cs+0.56"
-        "zpos"              "0"
-        "wide"              "f0"
+        "xpos"          "c-105"
+        "ypos"          "cs+0.56"
+        "zpos"          "0"
+        "wide"          "f0"
     }
 }
