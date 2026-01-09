@@ -14,9 +14,10 @@
 		"enabled"						"1"
 		"tabPosition"					"0"
 		"medal_width"					"0"
-		"avatar_width"					"57" [$WIN32]
+		"medal_column_width"			"0"
+		"avatar_width"					"28" [$WIN32]
 		"spacer"						"2"
-		"name_width"					"100" [$WIN32]
+		"name_width"					"118" [$WIN32]
 		"nemesis_width"					"14" [$WIN32]
 		"class_width"					"18" [$WIN32]
 		"score_width"					"25"
