@@ -27,14 +27,13 @@ Additionally, **e.v.e HUD** was used as a reference and basis for several UI com
 
 The HUD has been primarily tested on 16:9 resolutions, but it should also work correctly on other aspect ratios.
 
-[Screenshots](https://imgur.com/a/iYY6OGO)
+### Screenshots
+
+https://imgur.com/a/iYY6OGO
 
 ### Recommended settings
 
 For the best experience with this HUD, it is recommended to adjust the following settings in the **Advanced Options** menu (under **HUD options**):
-
-* **TargetID – Disable floating health**: enable this option
-  *(or run `tf_hud_target_id_disable_floating_health 1` in the console)*
 
 * **TargetID Alpha**: set the slider to its maximum value
   *(or run `tf_hud_target_id_alpha 255` in the console)*
@@ -115,3 +114,17 @@ mat_hdr_level 0
 mat_colcorrection_disableentities 1
 mat_colorcorrection 0
 ```
+
+## Alternative round timer
+
+This customization is located in `customizations/alternative round timer`.
+
+Copy the `resource` folder into the root folder.
+If your file manager asks to replace existing files, select **Yes**.
+
+## Floating health fix
+
+This customization is located in `customizations/floating health fix`.
+
+Copy the `resource` folder into the root folder.
+If your file manager asks to replace existing files, select **Yes**.
