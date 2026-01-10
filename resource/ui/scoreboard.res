@@ -875,16 +875,11 @@
 
 		"if_mvm"
 		{
-			"xpos"				"c-125"
 			"ypos"				"c130"
-			"zpos"				"0"
-			"wide"				"250"
-			"tall"				"70"
-			"xpos_minmode"		"c-125"
+			"xpos_minmode"		"c-140"
 			"ypos_minmode"		"c130"
-			"wide_minmode"		"250"
+			"wide_minmode"		"280"
 			"tall_minmode"		"70"
-			"visible"			"1"
 		}
 	}
 
