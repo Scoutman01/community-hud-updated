@@ -106,7 +106,7 @@
 		"ypos"							"47"
 		"ypos_minmode"					"47"
 		"wide"							"24"
-		"wide_minmode"					"28"
+		"wide_minmode"					"26" // 28
 		"tall"							"24"
 		"tall_minmode"					"24"
 		"visible"						"1"
