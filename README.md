@@ -82,7 +82,7 @@ If your file manager asks to replace existing files, select **Yes**.
 
 This customization is located in `customizations/crosshairs`.
 
-Open the `crosshair.res` file with a text editor and follow the instructions written inside the file.
+There is nothing to copy, just open the `crosshair.res` file with a text editor and follow the instructions written inside the file.
 
 ### Transparent Viewmodel
 
