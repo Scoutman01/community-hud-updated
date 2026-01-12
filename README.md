@@ -132,3 +132,16 @@ If your file manager asks to replace existing files, select **Yes**.
 #### Important note
 
 This fix modifies the targetID layout, causing the player name and health to no longer be aligned.
+
+### Alternative Arena player count
+
+This customization is located in `customizations/alternative arena player count`.
+
+Copy the `resource` folder into the root folder.
+If your file manager asks to replace existing files, select **Yes**.
+
+#### Important note
+
+Community game modes based on Arena, such as VSH or Smash Fortress, often display important information at the bottom of the screen.
+However, this overlaps with the player counters, making both elements confusing.
+This customization moves the player counters back to their original position, at the top of the screen (like the default HUD).
