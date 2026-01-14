@@ -9,8 +9,8 @@
 		"PositiveColor"				"0 255 0 255"
 		"NegativeColor"				"255 255 0 255"
 		"delta_lifetime"			"3"
-		"delta_item_font"			"HudFontMediumSmallOutline" // HudFontMediumSmall
-		"delta_item_font_big"		"HudFontMediumOutline" // HudFontMedium
+		"delta_item_font"			"HudFontMediumSmallOutline"
+		"delta_item_font_big"		"HudFontMediumSmallBoldOutline" // HudFontMediumOutline
 		"visible"					"1"
 		"visible_minmode"			"1"
 	}

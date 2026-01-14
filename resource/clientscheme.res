@@ -1076,6 +1076,19 @@
 			}
 		}
 
+		"HudFontMediumSmallBoldOutline"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"18"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+
 		"HudFontMediumSmall"
 		{
 			"1"
