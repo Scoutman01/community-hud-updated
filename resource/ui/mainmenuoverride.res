@@ -91,8 +91,8 @@
 			"paintbackground"				"0"
 			"paintborder"					"0"
 			"defaultFgColor_override"		"Tanlight"
-			"armedFgColor_override"			"147 71 57 255"
-			"depressedFgColor_override"		"147 71 57 255"
+			"armedFgColor_override"			"TanDark"
+			"depressedFgColor_override"		"TanDark"
 		}
 	}
 
@@ -133,8 +133,8 @@
 			"paintbackground"				"0"
 			"paintborder"					"0"
 			"defaultFgColor_override"		"Tanlight"
-			"armedFgColor_override"			"147 71 57 255"
-			"depressedFgColor_override"		"147 71 57 255"
+			"armedFgColor_override"			"TanDark"
+			"depressedFgColor_override"		"TanDark"
 		}
 	}
 
@@ -175,8 +175,8 @@
 			"paintbackground"				"0"
 			"paintborder"					"0"
 			"defaultFgColor_override"		"Tanlight"
-			"armedFgColor_override"			"147 71 57 255"
-			"depressedFgColor_override"		"147 71 57 255"
+			"armedFgColor_override"			"TanDark"
+			"depressedFgColor_override"		"TanDark"
 		}
 	}
 
@@ -217,8 +217,8 @@
 			"paintbackground"				"0"
 			"paintborder"					"0"
 			"defaultFgColor_override"		"Tanlight"
-			"armedFgColor_override"			"147 71 57 255"
-			"depressedFgColor_override"		"147 71 57 255"
+			"armedFgColor_override"			"TanDark"
+			"depressedFgColor_override"		"TanDark"
 		}
 	}
 
@@ -259,8 +259,8 @@
 			"paintbackground"				"0"
 			"paintborder"					"0"
 			"defaultFgColor_override"		"Tanlight"
-			"armedFgColor_override"			"147 71 57 255"
-			"depressedFgColor_override"		"147 71 57 255"
+			"armedFgColor_override"			"TanDark"
+			"depressedFgColor_override"		"TanDark"
 		}
 	}
 
@@ -301,8 +301,8 @@
 			"paintbackground"				"0"
 			"paintborder"					"0"
 			"defaultFgColor_override"		"Tanlight"
-			"armedFgColor_override"			"147 71 57 255"
-			"depressedFgColor_override"		"147 71 57 255"
+			"armedFgColor_override"			"TanDark"
+			"depressedFgColor_override"		"TanDark"
 		}
 	}
 
@@ -343,8 +343,8 @@
 			"paintbackground"				"0"
 			"paintborder"					"0"
 			"defaultFgColor_override"		"Tanlight"
-			"armedFgColor_override"			"147 71 57 255"
-			"depressedFgColor_override"		"147 71 57 255"
+			"armedFgColor_override"			"TanDark"
+			"depressedFgColor_override"		"TanDark"
 		}
 	}
 
@@ -385,8 +385,8 @@
 			"paintbackground"				"0"
 			"paintborder"					"0"
 			"defaultFgColor_override"		"Tanlight"
-			"armedFgColor_override"			"147 71 57 255"
-			"depressedFgColor_override"		"147 71 57 255"
+			"armedFgColor_override"			"TanDark"
+			"depressedFgColor_override"		"TanDark"
 		}
 	}
 
@@ -427,8 +427,8 @@
 			"paintbackground"				"0"
 			"paintborder"					"0"
 			"defaultFgColor_override"		"Tanlight"
-			"armedFgColor_override"			"147 71 57 255"
-			"depressedFgColor_override"		"147 71 57 255"
+			"armedFgColor_override"			"TanDark"
+			"depressedFgColor_override"		"TanDark"
 		}
 	}
 }
