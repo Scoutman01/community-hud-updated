@@ -51,7 +51,7 @@ These links are kept for historical reference and documentation purposes only:
 * flame: author of communityHUD and [flameHUD](https://github.com/mattr0d/flamehud)
 * povohat: author of communityHUD and PVHUD
 * noobynoob: the basis of this updated version
-* Hypnotize: [HUD update guide](https://github.com/Hypnootize/HUDs-Update-Guide), [default HUD files](https://github.com/Hypnootize/TF2-Default-HUD), update of [PVHUD](https://github.com/TF2HUDsArchive/PV-Hud) and [flameHUD](https://github.com/TF2HUDsArchive/Flame-Hud), [crosshairs](https://github.com/Hypnootize/TF2-HUD-Crosshairs)
+* Hypnotize: [HUD update guide](https://github.com/Hypnootize/HUDs-Update-Guide), [default HUD files](https://github.com/Hypnootize/TF2-Default-HUD), update of [PVHUD](https://github.com/TF2HUDsArchive/PV-Hud) and [flameHUD](https://github.com/TF2HUDsArchive/Flame-Hud), [crosshairs](https://github.com/Hypnootize/TF2-HUD-Crosshairs), [icons](https://github.com/Hypnootize/TF2-HUD-Icons)
 * Snowshoe: author of [TF2HudPlus](https://github.com/SnowshoeIceboot/tf2hudplus) (main menu, loadout, item selection)
 * CriticalFlaw: author of [Community HUD fixes](https://github.com/CriticalFlaw/tf2hud-fixes) (player destruction, robot destruction, item quickswitch)
 * Sinders: author of [e.v.e HUD](https://gamebanana.com/mods/26852) (engineer build/destroy/eureka effect, server welcome, map info, map intro)
