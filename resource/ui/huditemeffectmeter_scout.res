@@ -75,14 +75,17 @@
 	{
 		"controlName"			"ImagePanel"
 		"fieldName"				"ChargeMark_Cola"
-		"xpos"					"22"
-		"ypos"					"25"
-		"zpos"					"4"
-		"wide"					"1"
+		"xpos"					"54"
+		"ypos"					"6"
+		"zpos"					"5"
+		"wide"					"2"
 		"tall"					"8"
-		"visible"				"0"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
 		"visible_minmode"		"0"
 		"enabled"				"1"
 		"fillcolor"				"0 0 0 255"
+		"PaintBackgroundType"	"0"
 	}
 }
