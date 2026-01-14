@@ -125,6 +125,14 @@
         "LocalBackgroundColor"          "255 255 255 200"
     }
 
+    "HudSpellMenu"
+    {
+        "xpos"                  "c-190"
+        "ypos"                  "r110"
+        "xpos_minmode"          "130"
+        "ypos_minmode"          "r61"
+    }
+
     "HudCloseCaption"
     {
         "xpos"              "c-100"
