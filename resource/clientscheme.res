@@ -3406,7 +3406,7 @@
 		{
 			"1"
 			{
-				"name"			"TF2 Icons"
+				"name"			"tf2icons"
 				"tall"			"16"
 				"additive"		"0"
 				"antialias"		"1"
@@ -6334,8 +6334,8 @@
 
 		"50"
 		{
-			"font"		"resource/extras/TF2Icons.ttf"
-			"name"		"TF2 Icons"
+			"font"		"resource/extras/tf2icons.ttf"
+			"name"		"tf2icons"
 		}
 	}
 }
