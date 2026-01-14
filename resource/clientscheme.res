@@ -3401,6 +3401,17 @@
 				"antialias"		"1"
 			}
 		}
+		
+		"TF2Icons"
+		{
+			"1"
+			{
+				"name"			"TF2 Icons"
+				"tall"			"16"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 	}
 
 	//
@@ -6320,5 +6331,11 @@
 		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
 		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
+
+		"50"
+		{
+			"font"		"resource/extras/TF2Icons.ttf"
+			"name"		"TF2 Icons"
+		}
 	}
 }
