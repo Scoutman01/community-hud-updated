@@ -57,12 +57,15 @@
 
     "HudBowCharge"
     {
-        "xpos"                  "c135"
-        "ypos"                  "r92"
-        "wide"                  "150"
-        "xpos_minmode"          "c147"
+        "xpos"                  "c136"
+        "ypos"                  "r91"
+		"zpos"					"2" // draw above the demoman meter
+        "wide"                  "200"
+        "tall"                  "20"
+        "xpos_minmode"          "c158"
         "ypos_minmode"          "r114"
-        "wide_minmode"          "75"
+        "wide_minmode"          "100"
+        "tall_minmode"          "8"
     }
 
     "CHudAccountPanel"
