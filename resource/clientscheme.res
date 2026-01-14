@@ -260,8 +260,8 @@
 		"Label.TextBrightColor"									"TanLight"
 		"Label.SelectedTextColor"								"White"
 		"Label.BgColor"											"Blank"
-		"Label.DisabledFgColor1"								"Blank"
-		"Label.DisabledFgColor2"								"Black"
+		"Label.DisabledFgColor1"								"Blank" // charge meter label shadow color
+		"Label.DisabledFgColor2"								"Black" // charge meter label color
 		"ListPanel.TextColor"									"Orange"
 		"ListPanel.BgColor"										"TransparentBlack"
 		"ListPanel.SelectedTextColor"							"Black"
@@ -1218,6 +1218,18 @@
 				"additive"			"0"
 				"antialias"			"1"
 				"dropshadow"		"1"
+			}
+		}
+
+		"HudFontBold10Shadow"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"10"
+				"weight"		"500"
+				"additive"		"0"
+				"dropshadow"	"1"
 			}
 		}
 
