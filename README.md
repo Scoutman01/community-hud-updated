@@ -54,7 +54,7 @@ These links are kept for historical reference and documentation purposes only:
 * Hypnotize: [HUD update guide](https://github.com/Hypnootize/HUDs-Update-Guide), [default HUD files](https://github.com/Hypnootize/TF2-Default-HUD), update of [PVHUD](https://github.com/TF2HUDsArchive/PV-Hud) and [flameHUD](https://github.com/TF2HUDsArchive/Flame-Hud), [crosshairs](https://github.com/Hypnootize/TF2-HUD-Crosshairs), [icons](https://github.com/Hypnootize/TF2-HUD-Icons)
 * Snowshoe: author of [TF2HudPlus](https://github.com/SnowshoeIceboot/tf2hudplus) (main menu, loadout, item selection)
 * CriticalFlaw: author of [Community HUD fixes](https://github.com/CriticalFlaw/tf2hud-fixes) (player destruction, robot destruction, item quickswitch)
-* Sinders: author of [e.v.e HUD](https://gamebanana.com/mods/26852) (engineer build/destroy/eureka effect, server welcome, map info, map intro)
+* Sinders: author of [e.v.e HUD](https://gamebanana.com/mods/26852) (engineer build/destroy/eureka effect, server welcome, map info, map intro, item meters)
 * Griever: author of [ToonHUD](https://toonhud.com/) (close captions)
 * Thespikedballofdoom: [2013 Item borders and color](https://gamebanana.com/mods/27051)
 * Doodles: [HUD guide](https://doodlesstuff.com/?p=tf2hud&page=preface)
@@ -145,3 +145,14 @@ If your file manager asks to replace existing files, select **Yes**.
 Community game modes based on Arena, such as VSH or Smash Fortress, often display important information at the bottom of the screen.
 However, this overlaps with the player counters, making both elements confusing.
 This customization moves the player counters back to their original position, at the top of the screen (like the default HUD).
+
+### Item meters with label
+
+This customization is located in `customizations/item meters with label`.
+
+Copy the `resource` folder into the root folder.
+If your file manager asks to replace existing files, select **Yes**.
+
+#### Important note
+
+This bring back the label that describes what each item meter corresponds to (Sandvich, Jarate, Sandman, etc.).

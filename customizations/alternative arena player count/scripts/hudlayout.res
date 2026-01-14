@@ -1,6 +1,7 @@
 "#base"         "../default_hudfiles/scripts/hudlayout.res"
 "#base"         "transparent_viewmodel.res"
 
+// The only difference is the removal of the "HudArenaPlayerCount" section so the default one is used instead
 "resource/hudlayout.res"
 {
     "HudWeaponAmmo"
@@ -46,7 +47,7 @@
     {
         "xpos"                  "c136"
         "ypos"                  "r91"
-        "wide"                  "150"
+        "wide"                  "200"
         "tall"                  "20"
         "xpos_minmode"          "c158"
         "ypos_minmode"          "r114"
