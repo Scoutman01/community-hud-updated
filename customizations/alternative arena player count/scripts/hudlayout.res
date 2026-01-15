@@ -59,7 +59,7 @@
     {
         "xpos"                  "c136"
         "ypos"                  "r91"
-		"zpos"					"2" // draw above the demoman meter
+        "zpos"                  "2"	// draw above the demoman meter
         "wide"                  "200"
         "tall"                  "20"
         "xpos_minmode"          "c158"
@@ -112,11 +112,8 @@
 
     "CurrencyStatusPanel"
     {
-        "xpos"                  "50"
-        "ypos"                  "r45"
-        "wide"                  "150"
-        "xpos_minmode"          "185"
-        "visible"               "1"
+        "xpos_minmode"          "c-230"
+        "ypos_minmode"          "r124"
     }
 
     "HudDeathNotice"
