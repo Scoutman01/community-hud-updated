@@ -12,8 +12,8 @@
 
 		"robot_kv"
 		{
-			"wide"		"19"
-			"tall"		"19"
+			"wide"		"16"
+			"tall"		"16"
 		}
 	}
 
