@@ -42,6 +42,7 @@
 	"Toggle Contracts"
 	{
 		"label"			"/"
+		// Only show the active contract: engine toggle tf_contract_progress_show 0 2
 		"command"		"engine toggle tf_contract_progress_show"
 		"tooltip"		"Enable/Disable Contracts"
 	}
