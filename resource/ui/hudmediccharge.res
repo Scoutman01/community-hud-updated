@@ -83,9 +83,9 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"IndividualChargesLabel"
-		"font"					"HudFontMediumBoldShadow"
+		"font"					"HudFontBold21Shadow"
 		"font_minmode"			"HudFontGiantBoldShadow"
-		"xpos"					"30"
+		"xpos"					"18"
 		"xpos_minmode"			"2"
 		"ypos"					"10"
 		"ypos_minmode"			"35"
