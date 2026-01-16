@@ -156,3 +156,10 @@ If your file manager asks to replace existing files, select **Yes**.
 #### Important note
 
 This bring back the label that describes what each item meter corresponds to (Sandvich, Jarate, Sandman, etc.).
+
+### Merged payload race icons
+
+This customization is located in `customizations/merged payload race icons`.
+
+Copy the `resource` folder into the root folder.
+If your file manager asks to replace existing files, select **Yes**.
