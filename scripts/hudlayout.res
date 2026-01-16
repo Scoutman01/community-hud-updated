@@ -1,3 +1,4 @@
+"#base"         "hudlayout_arenaplayercount.res"
 "#base"         "../default_hudfiles/scripts/hudlayout.res"
 "#base"         "transparent_viewmodel.res"
 
@@ -247,12 +248,6 @@
     "HudArenaClassLayout"
     {
         "zpos"          "20"
-    }
-
-    "HudArenaPlayerCount"
-    {
-        "ypos"          "r41"
-        "tall"          "50"
     }
 
     "HudAchievementTracker"
