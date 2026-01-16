@@ -115,9 +115,9 @@ mat_colcorrection_disableentities 1
 mat_colorcorrection 0
 ```
 
-### Alternative round timer
+### Alternative timer background
 
-This customization is located in `customizations/alternative round timer`.
+This customization is located in `customizations/alternative timer background`.
 
 Copy the `resource` folder into the root folder.
 If your file manager asks to replace existing files, select **Yes**.
