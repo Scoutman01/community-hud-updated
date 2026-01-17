@@ -1,31 +1,30 @@
 # Community HUD Updated
 
 **Community HUD** (not to be confused with *Community HUD Fixes* by CriticalFlaw) is a Team Fortress 2 HUD originally created by **flame** and **povohat** in 2010.
+
 Its defining feature is the combination of two classic HUDs into a single package:
 
 * **minmode 0** corresponds to **PVHUD**
 * **minmode 1** corresponds to **flameHUD**
 
-The original version of Community HUD was last updated in **2011** by its original authors. After that point, the project evolved into a standalone updated version of flameHUD, and the PVHUD component was dropped.
+The original Community HUD was last updated in **2011** by its original authors. After that point, the project evolved into a standalone updated version of flameHUD, and the PVHUD component was dropped.
 
 ## History
 
-* **2013** - the first resurrection of the hud was made by [Cheezy](https://gamebanana.com/mods/26840), but this version hasn't been updated since.
+* **2013** – First resurrection by [Cheezy](https://gamebanana.com/mods/26840), later abandoned.
+* **2015** – Recreation by [Kermit](https://www.teamfortress.tv/29891/community-hud-2015), based on modern flameHUD and PVHUD (last update in 2016).
+* **2020** – Update attempt by [noobynoob](https://gamebanana.com/mods/26667), abandoned before completion.
 
-* **2015** - a recreation of the hud was made by [Kermit](https://www.teamfortress.tv/29891/community-hud-2015), based on modern versions of flameHUD and PVHUD. It was last updated in 2016.
+This version is based on **noobynoob’s work**, which served as the foundation for further updates, fixes, and modernization.
 
-* **2020** - the HUD began to be updated again by [noobynoob](https://gamebanana.com/mods/26667), but has since been abandoned before completion.
-
-The version presented here is based on noobynoob’s work, which served as the foundation for further updates and fixes.
-
-## Current project
+## Project goals
 
 The goal of this project is to **modernize Community HUD while preserving its original dual-HUD philosophy**.
 
-Due to the age of the original HUD and the evolution of TF2’s UI system, many elements had to be reused or adapted from modern versions of **PVHUD** and **flameHUD**.
+Due to the age of the original HUD and the evolution of TF2’s UI system, many elements were reused or adapted from modern versions of **PVHUD** and **flameHUD**.
 Additionally, **e.v.e HUD** was used as a reference and basis for several UI components.
 
-The HUD has been primarily tested on 16:9 resolutions, but it should also work correctly on other aspect ratios.
+The HUD has been primarily tested on **16:9** resolutions, but it should also work on other aspect ratios.
 
 ### Screenshots
 
@@ -33,76 +32,84 @@ https://imgur.com/a/iYY6OGO
 
 ### Recommended settings
 
-For the best experience with this HUD, it is recommended to adjust the following settings in the **Advanced Options** menu (under **HUD options**):
+For the best experience, it is recommended to adjust the following settings in the **Advanced Options** menu (under **HUD options**):
 
 * **TargetID Alpha**: set the slider to its maximum value
   *(or run `tf_hud_target_id_alpha 255` in the console)*
 
-## Links (Outdated / Archive)
-
-These links are kept for historical reference and documentation purposes only:
-
-* [https://etf2l.org/forum/customise/topic-8650/](https://etf2l.org/forum/customise/topic-8650/)
-* [https://code.google.com/archive/p/communitytf2hud/](https://code.google.com/archive/p/communitytf2hud/)
-
-
-## Credits
-
-* flame: author of communityHUD and [flameHUD](https://github.com/mattr0d/flamehud)
-* povohat: author of communityHUD and PVHUD
-* noobynoob: the basis of this updated version
-* Hypnotize: [HUD update guide](https://github.com/Hypnootize/HUDs-Update-Guide), [default HUD files](https://github.com/Hypnootize/TF2-Default-HUD), update of [PVHUD](https://github.com/TF2HUDsArchive/PV-Hud) and [flameHUD](https://github.com/TF2HUDsArchive/Flame-Hud), [crosshairs](https://github.com/Hypnootize/TF2-HUD-Crosshairs), [icons](https://github.com/Hypnootize/TF2-HUD-Icons)
-* Snowshoe: author of [TF2HudPlus](https://github.com/SnowshoeIceboot/tf2hudplus) (main menu, loadout, item selection)
-* CriticalFlaw: author of [Community HUD fixes](https://github.com/CriticalFlaw/tf2hud-fixes) (player destruction, robot destruction, item quickswitch)
-* Sinders: author of [e.v.e HUD](https://gamebanana.com/mods/26852) (engineer build/destroy/eureka effect, server welcome, map info, map intro, item meters)
-* Griever: author of [ToonHUD](https://toonhud.com/) (close captions)
-* Thespikedballofdoom: [2013 Item borders and color](https://gamebanana.com/mods/27051)
-* Doodles: [HUD guide](https://doodlesstuff.com/?p=tf2hud&page=preface)
-
 ## Customizations
 
-**Root folder**: The main HUD directory, where `info.vdf`, `resource`, and `scripts` are located.
+All customizations are located in the `customizations` folder.
+
+**Root folder** refers to the main HUD directory containing:
+- `info.vdf`
+- `resource`
+- `scripts`
+
+Unless stated otherwise, installing a customization consists of **copying its contents into the root folder** and allowing files to be replaced when prompted.
+
+Check out the screenshots to see what each one looks like.
 
 ---
 
-### Old Scoreboard
+### Alternative Arena player count
 
-This customization is located in `customizations/old scoreboard`.
+**Location:** `customizations/alternative arena player count`
 
-Choose the version you prefer:
-- **16 players**
-- **9 players**
+**Note:**
+Community game modes based on Arena (VSH, Smash Fortress, etc.) often display important information at the bottom of the screen.
+However, this overlaps with the player counters, making both elements confusing.
+This customization moves the player counters back to their original position, at the top of the screen (like the default HUD).
 
-(Check the screenshots to see how each version looks.)
+### Alternative timer background
 
-Once you have chosen a version, copy the `resource` folder into the root folder.
-If your file manager asks to replace existing files, select **Yes**.
+**Location:** `customizations/alternative timer background`
 
 ### Crosshair
 
-This customization is located in `customizations/crosshairs`.
+**Location:** `customizations/crosshairs`
 
-There is nothing to copy, just open the `crosshair.res` file with a text editor and follow the instructions written inside the file.
+**This customization does not require copying any files.**
 
-### Transparent Viewmodel
+Open `crosshair.res` with a text editor and follow the instructions written inside the file.
 
-This customization is located in `customizations/transparent viewmodel`.
+### Floating health fix
 
-Copy the `materials` and `scripts` folders into the root folder.
+**Location:** `customizations/floating health fix`
+
+**Note:** This modification changes the TargetID layout, causing the player name and health to no longer be aligned.
+
+### Item meters with label
+
+**Location:** `customizations/item meters with label`
+
+**Note:** This restores labels describing what each item meter represents (Sandvich, Jarate, Sandman, etc.) with the exception of the demoman shield.
+
+### Merged payload race icons
+
+**Location:** `customizations/merged payload race icons`
+
+### Old scoreboard
+
+**Location:** `customizations/old scoreboard`
+
+Available versions:
+- **16 players**
+- **9 players**
+
+### Transparent viewmodel
+
+**Location:** `customizations/transparent viewmodel`
 
 #### Disabling the transparent viewmodel
 
-If you want to disable this customization after installing it:
-1. Go to the `scripts` folder inside the root folder.
-2. Open `transparent_viewmodel.res` with a text editor.
-3. Change the values of `visible` and `enabled` to `"0"`.
+1. Open `scripts/transparent_viewmodel.res` (root folder).
+2. Change the values of `visible` and `enabled` to `"0"`.
 
 #### Important notes
 
-source: https://www.teamfortress.tv/21928/transparent-viewmodels-in-any-hud
-
 ```
-The Transparent Viewmodel customization should't be used with a dxlevel lower than 90.
+The Transparent viewmodel customization should't be used with a dxlevel lower than 90.
 dxlevel 80/81 doesn't support the refract material, which mostly means that if you enable this customization your screen will simply turn white!
 
 If you are having problems you might want to edit your fps config so that certain console commands don't disable your viewmodels' transparency:
@@ -115,51 +122,24 @@ mat_colcorrection_disableentities 1
 mat_colorcorrection 0
 ```
 
-### Alternative timer background
+source: https://www.teamfortress.tv/21928/transparent-viewmodels-in-any-hud
 
-This customization is located in `customizations/alternative timer background`.
+## Links (Outdated / Archive)
 
-Copy the `resource` folder into the root folder.
-If your file manager asks to replace existing files, select **Yes**.
+These links are kept for historical reference and documentation purposes only:
 
-### Floating health fix
+* [https://etf2l.org/forum/customise/topic-8650/](https://etf2l.org/forum/customise/topic-8650/)
+* [https://code.google.com/archive/p/communitytf2hud/](https://code.google.com/archive/p/communitytf2hud/)
 
-This customization is located in `customizations/floating health fix`.
+## Credits
 
-Copy the `resource` folder into the root folder.
-If your file manager asks to replace existing files, select **Yes**.
-
-#### Important note
-
-This fix modifies the targetID layout, causing the player name and health to no longer be aligned.
-
-### Alternative Arena player count
-
-This customization is located in `customizations/alternative arena player count`.
-
-Copy the `resource` folder into the root folder.
-If your file manager asks to replace existing files, select **Yes**.
-
-#### Important note
-
-Community game modes based on Arena, such as VSH or Smash Fortress, often display important information at the bottom of the screen.
-However, this overlaps with the player counters, making both elements confusing.
-This customization moves the player counters back to their original position, at the top of the screen (like the default HUD).
-
-### Item meters with label
-
-This customization is located in `customizations/item meters with label`.
-
-Copy the `resource` folder into the root folder.
-If your file manager asks to replace existing files, select **Yes**.
-
-#### Important note
-
-This bring back the label that describes what each item meter corresponds to (Sandvich, Jarate, Sandman, etc.).
-
-### Merged payload race icons
-
-This customization is located in `customizations/merged payload race icons`.
-
-Copy the `resource` folder into the root folder.
-If your file manager asks to replace existing files, select **Yes**.
+* flame: original author of communityHUD and [flameHUD](https://github.com/mattr0d/flamehud)
+* povohat: original author of communityHUD and PVHUD
+* noobynoob: base for this updated version
+* Hypnotize: [HUD update guide](https://github.com/Hypnootize/HUDs-Update-Guide), [default HUD files](https://github.com/Hypnootize/TF2-Default-HUD), [PVHUD](https://github.com/TF2HUDsArchive/PV-Hud) and [flameHUD](https://github.com/TF2HUDsArchive/Flame-Hud) updates, [crosshairs](https://github.com/Hypnootize/TF2-HUD-Crosshairs), [icons](https://github.com/Hypnootize/TF2-HUD-Icons)
+* Snowshoe: [TF2HudPlus](https://github.com/SnowshoeIceboot/tf2hudplus) (main menu, loadout, item selection)
+* CriticalFlaw: [Community HUD fixes](https://github.com/CriticalFlaw/tf2hud-fixes) (player destruction, robot destruction, item quickswitch)
+* Sinders: [e.v.e HUD](https://gamebanana.com/mods/26852) (engineer build/destroy/eureka effect, server welcome, map info, map intro, item meters)
+* Griever: [ToonHUD](https://toonhud.com/) (close captions)
+* Thespikedballofdoom: [2013 item borders and colors](https://gamebanana.com/mods/27051)
+* Doodles: [HUD guide](https://doodlesstuff.com/?p=tf2hud&page=preface)
