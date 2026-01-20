@@ -1,4 +1,5 @@
 "#base"		"../customizations/crosshairs/crosshair_scheme.res"
+"#base"		"extras/clientscheme_community.res"
 
 //
 // TRACKER SCHEME RESOURCE FILE
@@ -260,8 +261,8 @@
 		"Label.TextBrightColor"									"TanLight"
 		"Label.SelectedTextColor"								"White"
 		"Label.BgColor"											"Blank"
-		"Label.DisabledFgColor1"								"Blank" // charge meter label shadow color
-		"Label.DisabledFgColor2"								"Black" // charge meter label color
+		"Label.DisabledFgColor1"								"Blank"	// charge meter label shadow color
+		"Label.DisabledFgColor2"								"Black"	// charge meter label color
 		"ListPanel.TextColor"									"Orange"
 		"ListPanel.BgColor"										"TransparentBlack"
 		"ListPanel.SelectedTextColor"							"Black"
@@ -434,13 +435,12 @@
 				"antialias"		"1"
 			}
 
-			"5"
+			"5"	// Misyl: Proportional
 			{
 				"name"			"Verdana"
-				"tall"			"24"
+				"tall"			"9"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"1200 6000"
 				"antialias"		"1"
 			}
 
@@ -521,13 +521,12 @@
 				"antialias"		"1"
 			}
 
-			"5"
+			"5"	// Misyl: Proportional
 			{
 				"name"			"Verdana"
-				"tall"			"22"
+				"tall"			"9"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
 				"antialias"		"1"
 			}
 
@@ -537,71 +536,6 @@
 				"tall"			"12"
 				"range"			"0x0000 0x00FF"
 				"weight"		"0"
-			}
-		}
-
-		"DefaultSmallAlternative"
-		{
-			"1"
-			{
-				"name"				"Verdana"
-				"tall"				"12"
-				"weight"			"0"
-				"range"				"0x0000 0x017F"
-				"dropshadow"		"1"
-				"yres"				"480 599"
-			}
-
-			"2"
-			{
-				"name"				"Verdana"
-				"tall"				"13"
-				"weight"			"0"
-				"range"				"0x0000 0x017F"
-				"dropshadow"		"1"
-				"yres"				"600 767"
-			}
-
-			"3"
-			{
-				"name"				"Verdana"
-				"tall"				"14"
-				"weight"			"0"
-				"range"				"0x0000 0x017F"
-				"dropshadow"		"1"
-				"yres"				"768 1023"
-				"antialias"			"1"
-			}
-
-			"4"
-			{
-				"name"				"Verdana"
-				"tall"				"20"
-				"weight"			"0"
-				"range"				"0x0000 0x017F"
-				"dropshadow"		"1"
-				"yres"				"1024 1199"
-				"antialias"			"1"
-			}
-
-			"5"
-			{
-				"name"				"Verdana"
-				"tall"				"22"
-				"weight"			"0"
-				"range"				"0x0000 0x017F"
-				"dropshadow"		"1"
-				"yres"				"1200 6000"
-				"antialias"			"1"
-			}
-
-			"6"
-			{
-				"name"				"Arial"
-				"tall"				"12"
-				"range"				"0x0000 0x00FF"
-				"dropshadow"		"1"
-				"weight"			"0"
 			}
 		}
 
@@ -645,13 +579,12 @@
 				"antialias"		"1"
 			}
 
-			"5"
+			"5"	// Misyl: Proportional
 			{
 				"name"			"Verdana"
-				"tall"			"16"
+				"tall"			"9"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"1200 6000"
 				"antialias"		"1"
 			}
 		}
@@ -696,13 +629,12 @@
 				"antialias"		"1"
 			}
 
-			"5"
+			"5"	// Misyl: Proportional
 			{
 				"name"			"Verdana"
-				"tall"			"30"
+				"tall"			"18"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"1200 6000"
 				"antialias"		"1"
 			}
 
@@ -749,19 +681,6 @@
 			}
 		}
 
-		"PlayerPanelPlayerNameOutline"
-		{
-			"1"
-			{
-				"name"			"Verdana"
-				"tall"			"6"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-
 		"HudHintText"
 		{
 			"1"
@@ -797,12 +716,12 @@
 				"yres"			"1024 1199"
 			}
 
-			"5"
+			"5"	// Misyl: Proportional
 			{
 				"name"			"Verdana"
-				"tall"			"24"
+				"tall"			"12"
 				"weight"		"700"
-				"yres"			"1200 10000"
+				"antialias"		"1"
 			}
 		}
 
@@ -853,37 +772,10 @@
 			"5"
 			{
 				"name"			"TF2"
-				"tall"			"52"
+				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
-				"yres"			"1200 10000"
-			}
-		}
-
-		"HudCrosshair"
-		{
-			"1"
-			{
-				"name"				"fonlydot"
-				"tall"				"36"
-				"tall_lodef"		"36"
-				"weight"			"500"
-				"additive"			"0"
-				"antialias"			"1"
-			}
-		}
-
-		"HudCrosshairSmaller"
-		{
-			"1"
-			{
-				"name"				"fonlydot"
-				"tall"				"24"
-				"tall_lodef"		"24"
-				"weight"			"500"
-				"additive"			"0"
-				"antialias"			"1"
 			}
 		}
 
@@ -897,44 +789,6 @@
 				"weight"			"500"
 				"additive"			"0"
 				"antialias"			"1"
-			}
-		}
-
-		"HudFontGiantBoldShadow"
-		{
-			"1"
-			{
-				"name"				"TF2 Build"
-				"tall"				"44"
-				"tall_lodef"		"52"
-				"weight"			"500"
-				"additive"			"0"
-				"antialias"			"1"
-				"dropshadow"		"1"
-			}
-		}
-
-		"HudFontBold60"
-		{
-			"1"
-			{
-				"name"			"TF2 Build"
-				"tall"			"60"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
-		"HudFontHUGE"
-		{
-			"1"
-			{
-				"name"			"TF2 Build"
-				"tall"			"80"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias"		"1"
 			}
 		}
 
@@ -1001,26 +855,22 @@
 			}
 		}
 
-		"HudFontMediumOutline"
-		{
-			"1"
-			{
-				"name"				"TF2"
-				"tall"				"24"
-				"tall_lodef"		"28"
-				"weight"			"500"
-				"additive"			"0"
-				"antialias"			"1"
-				"outline"			"1"
-			}
-		}
-
 		"HudFontMediumSecondary"
 		{
 			"1"
 			{
 				"name"			"TF2 Secondary"
 				"tall"			"24"
+				"weight"		"500"
+				"yres"			"1 1199"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+
+			"2"	// Misyl: Proportional
+			{
+				"name"			"TF2 Secondary"
+				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
@@ -1039,44 +889,6 @@
 			}
 		}
 
-		"HudFontMediumBoldShadow"
-		{
-			"1"
-			{
-				"name"				"TF2 Build"
-				"tall"				"24"
-				"weight"			"500"
-				"additive"			"0"
-				"antialias"			"1"
-				"dropshadow"		"1"
-			}
-		}
-
-		"HudFontBold21Shadow"
-		{
-			"1"
-			{
-				"name"				"TF2 Build"
-				"tall"				"21"
-				"weight"			"500"
-				"additive"			"0"
-				"antialias"			"1"
-				"dropshadow"		"1"
-			}
-		}
-
-		"HudFontBold20"
-		{
-			"1"
-			{
-				"name"			"TF2 Build"
-				"tall"			"20"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
 		"HudFontMediumSmallBold"
 		{
 			"1"
@@ -1086,19 +898,6 @@
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
-			}
-		}
-
-		"HudFontMediumSmallBoldOutline"
-		{
-			"1"
-			{
-				"name"			"TF2 Build"
-				"tall"			"18"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 
@@ -1113,21 +912,6 @@
 				"weight"			"500"
 				"additive"			"0"
 				"antialias"			"1"
-			}
-		}
-
-		"HudFontMediumSmallOutline"
-		{
-			"1"
-			{
-				"name"				"TF2"
-				"tall"				"18"
-				"tall_hidef"		"24"
-				"tall_lodef"		"18"
-				"weight"			"500"
-				"additive"			"0"
-				"antialias"			"1"
-				"outline"			"1"
 			}
 		}
 
@@ -1155,20 +939,6 @@
 				"weight"			"500"
 				"additive"			"0"
 				"antialias"			"1"
-			}
-		}
-
-		"HudFontSmallShadow"
-		{
-			"1"
-			{
-				"name"				"TF2 Secondary"
-				"tall"				"14"
-				"tall_lodef"		"16"
-				"weight"			"500"
-				"additive"			"0"
-				"antialias"			"1"
-				"dropshadow"		"1"
 			}
 		}
 
@@ -1221,19 +991,6 @@
 			}
 		}
 
-		"HudFontSmallestBorder"
-		{
-			"1"
-			{
-				"name"			"TF2 Secondary"
-				"tall"			"10"
-				"weight"		"900"
-				"additive"		"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-
 		"HudFontSmallestShadow"
 		{
 			"1"
@@ -1244,18 +1001,6 @@
 				"additive"			"0"
 				"antialias"			"1"
 				"dropshadow"		"1"
-			}
-		}
-
-		"HudFontBold10Shadow"
-		{
-			"1"
-			{
-				"name"			"TF2 Build"
-				"tall"			"10"
-				"weight"		"500"
-				"additive"		"0"
-				"dropshadow"	"1"
 			}
 		}
 
@@ -1271,37 +1016,12 @@
 			}
 		}
 
-		"HudFontSmallestBoldShadow"
-		{
-			"1"
-			{
-				"name"				"TF2 Build"
-				"tall"				"11"
-				"weight"			"500"
-				"additive"			"0"
-				"antialias"			"1"
-				"dropshadow"		"1"
-			}
-		}
-
 		"PerformanceModeSmall"
 		{
 			"1"
 			{
 				"name"			"TF2 Build"
 				"tall"			"4"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
-		"HudFontSmallerest"
-		{
-			"1"
-			{
-				"name"			"TF2 Secondary"
-				"tall"			"9"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
@@ -1677,6 +1397,7 @@
 			}
 		}
 
+		// Changed font and tall values for close caption
 		"CloseCaption"
 		{
 			"1"
@@ -1734,7 +1455,6 @@
 				"range"				"0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
-
 
 		// this is the symbol font
 		"Marlett"
@@ -1936,19 +1656,6 @@
 			}
 		}
 
-		"ScoreboardTeamCountNew"
-		{
-			"1"
-			{
-				"name"			"TF2 Secondary"
-				"tall"			"14"
-				"weight"		"500"
-				"range"			"0x0000 0x007F"	// Basic Latin
-				"antialias"		"1"
-				"additive"		"0"
-			}
-		}
-
 		"ScoreboardTeamName"
 		{
 			"1"
@@ -1961,6 +1668,19 @@
 				"range"				"0x0000 0x007F"	// Basic Latin
 				"antialias"			"1"
 				"additive"			"0"
+			}
+		}
+
+		"ScoreboardTeamCountNew"
+		{
+			"1"
+			{
+				"name"			"TF2 Secondary"
+				"tall"			"14"
+				"weight"		"500"
+				"range"			"0x0000 0x007F"	// Basic Latin
+				"antialias"		"1"
+				"additive"		"0"
 			}
 		}
 
@@ -2315,17 +2035,6 @@
 				"weight"			"300"
 				"weight_lodef"		"600"
 				"antialias"			"1"
-			}
-		}
-
-		"MenuSmallFont10"
-		{
-			"1"
-			{
-				"name"			"TF2"
-				"tall"			"10"
-				"weight"		"300"
-				"antialias"		"1"
 			}
 		}
 
@@ -2747,7 +2456,6 @@
 				"blur"			"3"
 				"additive"		"1"
 				"antialias"		"1"
-				"custom"		"1"
 			}
 		}
 
@@ -2817,7 +2525,7 @@
 		{
 			"1"
 			{
-				//"name"			"OCR A Extended" [$WINDOWS]
+				// "name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"10"
 				"weight"		"400"
@@ -2828,7 +2536,7 @@
 
 			"2"
 			{
-				//"name"			"OCR A Extended" [$WINDOWS]
+				// "name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"14"
 				"weight"		"400"
@@ -2839,7 +2547,7 @@
 
 			"3"
 			{
-				//"name"			"OCR A Extended" [$WINDOWS]
+				// "name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"18"
 				"weight"		"400"
@@ -2853,7 +2561,7 @@
 		{
 			"1"
 			{
-				//"name"			"OCR A Extended" [$WINDOWS]
+				// "name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"10"
 				"weight"		"800"
@@ -2864,7 +2572,7 @@
 
 			"2"
 			{
-				//"name"			"OCR A Extended" [$WINDOWS]
+				// "name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"14"
 				"weight"		"800"
@@ -2875,7 +2583,7 @@
 
 			"3"
 			{
-				//"name"			"OCR A Extended" [$WINDOWS]
+				// "name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"18"
 				"weight"		"800"
@@ -2889,7 +2597,7 @@
 		{
 			"1"
 			{
-				//"name"			"OCR A Extended" [$WINDOWS]
+				// "name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"16"
 				"weight"		"400"
@@ -3378,7 +3086,7 @@
 		{
 			"1"
 			{
-				//"name"			"OCR A Extended" [$WINDOWS]
+				// "name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"7"
 				"weight"		"0"
@@ -3392,7 +3100,7 @@
 		{
 			"1"
 			{
-				//"name"			"OCR A Extended" [$WINDOWS]
+				// "name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"7"
 				"weight"		"400"
@@ -3405,7 +3113,7 @@
 		{
 			"1"
 			{
-				//"name"			"OCR A Extended" [$WINDOWS]
+				// "name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"10"
 				"weight"		"400"
@@ -3418,7 +3126,7 @@
 		{
 			"1"
 			{
-				//"name"			"OCR A Extended" [$WINDOWS]
+				// "name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"14"
 				"weight"		"400"
@@ -3431,21 +3139,10 @@
 		{
 			"1"
 			{
-				//"name"			"OCR A Extended" [$WINDOWS]
+				// "name"			"OCR A Extended" [$WINDOWS]
 				"name"			"ocra"
 				"tall"			"30"
 				"weight"		"400"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"TF2Icons"
-		{
-			"1"
-			{
-				"name"			"tf2icons"
-				"tall"			"16"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -3892,95 +3589,6 @@
 			"src_corner_width"			"23"
 			"draw_corner_width"			"5"	// screen size of the corners ( and sides ), proportional
 			"draw_corner_height"		"5"
-		}
-
-		"ToolTipBorder"
-		{
-			"inset"		"0 0 1 1"
-
-			"Left"
-			{
-				"1"
-				{
-					"color"			"TanDarker"
-					"offset"		"0 1"
-				}
-			}
-
-			"Right"
-			{
-				"1"
-				{
-					"color"			"TanDarker"
-					"offset"		"1 0"
-				}
-			}
-
-			"Top"
-			{
-				"1"
-				{
-					"color"			"TanDarker"
-					"offset"		"0 0"
-				}
-			}
-
-			"Bottom"
-			{
-				"1"
-				{
-					"color"			"TanDarker"
-					"offset"		"0 0"
-				}
-			}
-		}
-
-		"OptionsCategoryBorder"
-		{
-			"inset"		"0 0 1 1"
-
-			// This border is used just to create a horizontal line, so it only has a bottom border
-			"Bottom"
-			{
-				"1"
-				{
-					"color"			"TanLight"
-					"offset"		"0 0"
-				}
-			}
-		}
-
-		"ReplayDefaultBorder"
-		{
-			"bordertype"				"scalable_image"
-			"backgroundtype"			"2"
-			"image"						"replay/panel_scalable_default"
-			"src_corner_height"			"23"	// pixels inside the image
-			"src_corner_width"			"23"
-			"draw_corner_width"			"7"	// screen size of the corners ( and sides ), proportional
-			"draw_corner_height"		"7"
-		}
-
-		"ReplayHighlightBorder"
-		{
-			"bordertype"				"scalable_image"
-			"backgroundtype"			"2"
-			"image"						"replay/panel_scalable_highlight"
-			"src_corner_height"			"23"	// pixels inside the image
-			"src_corner_width"			"23"
-			"draw_corner_width"			"7"	// screen size of the corners ( and sides ), proportional
-			"draw_corner_height"		"7"
-		}
-
-		"ReplayBalloonBorder"
-		{
-			"bordertype"				"scalable_image"
-			"backgroundtype"			"2"
-			"image"						"replay/panel_scalable_balloon"
-			"src_corner_height"			"23"	// pixels inside the image
-			"src_corner_width"			"23"
-			"draw_corner_width"			"7"	// screen size of the corners ( and sides ), proportional
-			"draw_corner_height"		"7"
 		}
 
 		"ToolTipBorder"
@@ -6369,11 +5977,5 @@
 		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
 		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
-
-		"50"
-		{
-			"font"		"resource/extras/tf2icons.ttf"
-			"name"		"tf2icons"
-		}
 	}
 }
