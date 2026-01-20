@@ -140,6 +140,6 @@ These links are kept for historical reference and documentation purposes only:
 * Snowshoe: [TF2HudPlus](https://github.com/SnowshoeIceboot/tf2hudplus) (main menu, loadout, item selection)
 * CriticalFlaw: [Community HUD fixes](https://github.com/CriticalFlaw/tf2hud-fixes) (player destruction, robot destruction, item quickswitch)
 * Sinders: [e.v.e HUD](https://gamebanana.com/mods/26852) (engineer build/destroy/eureka effect, server welcome, map info, map intro, item meters)
-* Griever: [ToonHUD](https://toonhud.com/) (close captions)
+* Griever ([ToonHUD](https://toonhud.com/)) & clovervidia: Close Captions
 * Thespikedballofdoom: [2013 item borders and colors](https://gamebanana.com/mods/27051)
 * Doodles: [HUD guide](https://doodlesstuff.com/?p=tf2hud&page=preface)
