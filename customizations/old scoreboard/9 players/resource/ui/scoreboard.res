@@ -392,6 +392,7 @@
 		"tabPosition"		"0"
 		"autoresize"		"3"
 		"linespacing"		"15"
+		"linegap"			"0"
 		"fgcolor"			"blue"
 
 		"if_mvm"
@@ -415,6 +416,7 @@
 		"tabPosition"		"0"
 		"autoresize"		"3"
 		"linespacing"		"15"
+		"linegap"			"0"
 		"textcolor"			"red"
 
 		"if_mvm"
